@@ -61,7 +61,7 @@
 
 ## [Hackathon McGill-FIAM – Finaliste](#)
 
-- Novembre 2025
+- Novembre 2024
 - Montréal
 - Top 10 sur 66 équipes
 - Conception d’un **Portfolio Transformer** générant directement des décisions d’allocation
@@ -70,7 +70,7 @@
 
 ## [Datathon Polytechnique Montréal – 3e place](#)
 
-- Décembre 2025
+- Décembre 2024
 - Montréal
 - Développement en 48h d’un système IA générant des **rapports financiers** et commentaires
 - Accent mis sur le langage financier, l’analyse de données et la visualisation

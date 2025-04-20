@@ -86,7 +86,7 @@ cv:
         details: 'Git, Conda, Docker, JupyterLab'
     Competitions:
       - name: '[McGill-FIAM Asset Management Hackathon - Finalist](#)'
-        date: 2025-11
+        date: 2024-11
         start_date:
         end_date:
         location: Montreal
@@ -96,7 +96,7 @@ cv:
           - The objective function was the **Sharpe ratio**, optimized dynamically with transaction cost constraints
           - Presented to a jury of finance professors and industry professionals
       - name: '[Polytechnique Montreal Datathon - 3rd Place](#)'
-        date: 2025-12
+        date: 2024-12
         start_date:
         end_date:
         location: Montreal

@@ -70,7 +70,7 @@ Graduate student at **Mila** (Université de Montréal), building intelligent sy
 
 ## [McGill-FIAM Asset Management Hackathon - Finalist](#)
 
-- Nov 2025
+- Nov 2024
 - Montreal
 - Top 10 out of 66 teams
 - Built a **Portfolio Transformer** model that directly outputs allocation actions rather than predictions
@@ -79,7 +79,7 @@ Graduate student at **Mila** (Université de Montréal), building intelligent sy
 
 ## [Polytechnique Montreal Datathon - 3rd Place](#)
 
-- Dec 2025
+- Dec 2024
 - Montreal
 - Designed an AI system to generate **financial reports** and commentary from raw data in 48 hours
 - Focused on financial language generation, analytics, and visual presentation of results

@@ -69,7 +69,7 @@ cv:
 
     Compétitions:
       - name: '[Hackathon McGill-FIAM – Finaliste](#)'
-        date: Novembre 2025
+        date: Novembre 2024
         location: Montréal
         highlights:
           - Top 10 sur 66 équipes
@@ -77,7 +77,7 @@ cv:
           - Optimisation du **Sharpe ratio** sous contraintes de coût et rotation
           - Présentation devant un jury de professeurs en finance et professionnels du secteur
       - name: '[Datathon Polytechnique Montréal – 3e place](#)'
-        date: Décembre 2025
+        date: Décembre 2024
         location: Montréal
         highlights:
           - "Développement en 48h d’un système IA générant des **rapports financiers** et commentaires"

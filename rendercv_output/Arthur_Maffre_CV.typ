@@ -619,7 +619,7 @@ Sept 2022 – Aug 2025
   right-content: [
     Montreal
 
-Nov 2025
+Nov 2024
   ],
 )
 
@@ -634,7 +634,7 @@ Nov 2025
   right-content: [
     Montreal
 
-Dec 2025
+Dec 2024
   ],
 )
 

@@ -1,4 +1,10 @@
-# 🧾 Arthur Maffre – CV Management
+## 📄 Aperçu du CV
+
+[![Voir le CV](rendercv_output/Arthur_Maffre_CV_1.png)](rendercv_output/Arthur_Maffre_CV.pdf)
+
+[![Voir le CV](rendercv_output/Arthur_Maffre_CV_2.png)](rendercv_output/Arthur_Maffre_CV.pdf)
+
+# ⚙️ CV Management
 
 🚀 Voir le CV en PDF :
 - 🇬🇧 [Télécharger le CV (anglais)](rendercv_output/Arthur_Maffre_CV.pdf)
@@ -10,7 +16,7 @@ Ce dépôt contient les fichiers YAML permettant de générer automatiquement me
 
 ---
 
-## ⚙️ Charger l’environnement Conda
+## 🐍 Charger l’environnement Conda
 
 Avant toute commande, active l’environnement :
 

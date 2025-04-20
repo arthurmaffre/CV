@@ -77,7 +77,7 @@ CV/
 ├── markdown/
 ├── rendercv_output/
 │   ├── Arthur_Maffre_CV.pdf
-│   ├── Arthur_Maffre_FR_CV.pdf
+│   ├── Arthur_Maffre_(FR)_CV.pdf
 │   └── ...
 ├── Arthur_Maffre_CV.yaml
 ├── Arthur_Maffre_FR_CV.yaml
@@ -87,4 +87,4 @@ CV/
 
 ---
 
-**🧠 Astuce :** Tu peux utiliser la version HTML (`.html`) pour faire relire ton CV avec **Grammarly** ou tout outil de correction.
+**🧠 Astuce :** Tu peux utiliser la version HTML (`.html`) pour relire ton CV

@@ -4,7 +4,7 @@
 #let name = "Arthur Maffre"
 #let locale-catalog-page-numbering-style = context { "Arthur Maffre - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
 #let locale-catalog-last-updated-date-style = "Last updated in Apr 2025"
-#let locale-catalog-language = "fr"
+#let locale-catalog-language = "en"
 #let design-page-size = "us-letter"
 #let design-section-titles-font-size = 1.4em
 #let design-colors-text = rgb(0, 0, 0)

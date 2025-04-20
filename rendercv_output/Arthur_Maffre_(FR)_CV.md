@@ -7,106 +7,103 @@
 - GitHub: [arthurmaffre](https://github.com/arthurmaffre)
 
 
-# Highlights
+# Points Forts
 
-- Designing intelligent systems for **dynamic pricing** and **portfolio** generation
-- Research funded by **IVADO** at **Mila** (20k/year)
-- Finalist at **McGill-FIAM Hackathon** | 3rd place at **Polytechnique Datathon**
-- Bridging **AI theory** and real-world impact — from **GFlowNet** to public spending
-# About Me
+- Conception de systèmes intelligents pour la **tarification dynamique** et la **génération de portefeuilles**
+- Recherche financée par **IVADO** à **Mila** (**20 000 $/an**)
+- Finaliste au **Hackathon McGill-FIAM** | 3e place au **Datathon de Polytechnique**
+- Pont entre la **théorie de l'IA** et l’impact concret — de **GFlowNet** à la modélisation des dépenses publiques
+# À Propos
 
-Graduate student at **Mila** (Université de Montréal), building intelligent systems that push the **boundaries of optimization** and decision-making. Currently exploring **GFlowNet**-based architectures for **pricing** and **portfolio generation**. I strive to turn complex ideas into actionable models — always aiming higher.
+Étudiant à la maîtrise à **Mila** (Université de Montréal), je conçois des systèmes intelligents qui repoussent les limites de l’optimisation et de la prise de décision. J’explore actuellement des architectures basées sur les **GFlowNets** pour la **tarification dynamique** et la **génération de portefeuilles**. Mon objectif : transformer des idées complexes en modèles concrets, utiles, et performants.
 
-# Education
+# Formation
 
-## Université de Montréal - Mila, MSC in Computer Science
+## Université de Montréal – Mila, M.Sc. in Informatique
 
-- Sept 2025 – Aug 2027
-- Montreal, QC, CA
-- Research on **GFlowNet-based** for dynamic pricing and portfolio generation
-- Focus on reinforcement learning, **combinatorial optimization**, and AI planning
-- Funded by a $20,000/year **IVADO research scholarship**
+- Sep 2025 – Aoû 2027
+- Montréal, QC, Canada
+- Recherche sur l’optimisation via **GFlowNet** pour la tarification dynamique et la génération de portefeuilles
+- Focalisation sur l’apprentissage par renforcement, l’optimisation combinatoire et la planification en IA
+- Financé par une bourse de recherche **IVADO** de **20 000 $/an**
 
-## Université de Montréal, BS in Economics - Honours Program
+## Université de Montréal, B.Sc. in Économie – Programme Honor
 
-- Sept 2022 – Aug 2025
-- Montreal, QC, CA
-- Research assistant on a project supervised by Prof. Arbour
-- Worked in collaboration with the Chief Justice of the Quebec Superior Court *(**$5,000 IQRDJ** research grant) on **public institution spending** modeling*
-- Teaching assistant for * **Microeconomics I** (ECN-2040)*, a **core** 2nd-year under-graduate course
-- **GPA:** 3.825/4.3
+- Sep 2022 – Aoû 2025
+- Montréal, QC, Canada
+- Assistant de recherche sur un projet supervisé par le professeur Arbour
+- Collaboration avec la juge en chef de la Cour supérieure du Québec *(**bourse IQRDJ** de 5 000 $ pour la modélisation des dépenses publiques)*
+- Auxiliaire d’enseignement pour *Microéconomie I (ECN-2040)*, cours obligatoire de 2e année
+- **Moyenne cumulative :** 3.825/4.3
 
-# Research Projects
+# Projets De Recherche
 
 ## [Meta-FlowNet](#)
 
-- Mar 2025 – present
-- Designed a **novel** architecture combining **GFlowNets** with Physics-Informed Neural Networks (**PINNs**)
-- Modeled the generation of CDF-like **structures** from reward-flow **trajectories** over continuous parameters
-- Introduced adaptive sampling and active learning mechanisms to boost **efficiency** in hard regions
-- Application: **dynamic portfolio** sequencing, stochastic optimization
+- Conception d’une architecture originale combinant **GFlowNets** et **réseaux neuronaux informés par la physique (PINNs)**
+- Modélisation de structures de type **CDF** à partir de trajectoires de flux sur des paramètres continus
+- Introduction de mécanismes d’échantillonnage adaptatif et d’apprentissage actif pour améliorer la couverture des zones complexes
+- Application : **génération de portefeuilles dynamiques**, optimisation stochastique
 
-## [Bilevel Pricing with GFlowNet](#)
+## [Tarification bi-niveau avec GFlowNet](#)
 
-- Mar 2025 – present
-- Using a formulated a bilevel pricing model where consumers solve a knapsack problem to maximize utility
-- Used GFlowNets with **Critic** to simulate consumer response and improve leader pricing strategy
-- Integrated mixed-integer programming with generative flow dynamics
+- Modélisation d’un problème de tarification où les consommateurs résolvent un **sac à dos** pour maximiser leur utilité
+- Simulation de la réponse des consommateurs via **GFlowNet avec Critique**, pour affiner la stratégie du leader
+- Intégration de la programmation mixte en nombres entiers avec une dynamique de flux génératif
 
-## [Transformer-GFlowNet for Sequential Portfolio Optimization](#)
+## [GFlowNet-Transformer pour l’optimisation séquentielle de portefeuille](#)
 
-- June 2024 – present
-- Developed a **Transformer-based** model to generate vectors of asset allocations
-- Modeled transaction costs, turnover constraints, and **dynamic Sharpe** ratio optimization
-- Used **MCMC**-based simulation for sequence interpretability and **XMAP** evaluation
+- Développement d’un modèle **Transformer-GFlowNet** générant des séquences d’allocations d’actifs
+- Modélisation des **coûts de transaction**, contraintes de rotation et optimisation du **Sharpe ratio dynamique**
+- Simulation **MCMC** pour interprétation des séquences et évaluation via **XMAP**
 
-# Technical Skills
+# Compétitions
 
-- Languages: Python (advanced), LaTeX, Markdown, Bash, C (basic), Rust (beginner)
-- Machine Learning & Optimization Framework: PyTorch, Lightning AI, HuggingFace
-- Models: Reinforcement Learning (PPO, A2C), GFlowNet, PINNs, XGBoost
-- Tools & Dev environment: Git, Conda, Docker, JupyterLab
-# Competitions
+## [Hackathon McGill-FIAM – Finaliste](#)
 
-## [McGill-FIAM Asset Management Hackathon - Finalist](#)
+- Novembre 2025
+- Montréal
+- Top 10 sur 66 équipes
+- Conception d’un **Portfolio Transformer** générant directement des décisions d’allocation
+- Optimisation du **Sharpe ratio** sous contraintes de coût et rotation
+- Présentation devant un jury de professeurs en finance et professionnels du secteur
 
-- Nov 2025
-- Montreal
-- Top 10 out of 66 teams
-- Built a **Portfolio Transformer** model that directly outputs allocation actions rather than predictions
-- The objective function was the **Sharpe ratio**, optimized dynamically with transaction cost constraints
-- Presented to a jury of finance professors and industry professionals
+## [Datathon Polytechnique Montréal – 3e place](#)
 
-## [Polytechnique Montreal Datathon - 3rd Place](#)
+- Décembre 2025
+- Montréal
+- Développement en 48h d’un système IA générant des **rapports financiers** et commentaires
+- Accent mis sur le langage financier, l’analyse de données et la visualisation
+- **Prix reçu : 500 $**
 
-- Dec 2025
-- Montreal
-- Designed an AI system to generate **financial reports** and commentary from raw data in 48 hours
-- Focused on financial language generation, analytics, and visual presentation of results
-- Awarded a **$500** prize
+# Expériences Professionnelles
 
-# Experience
+## Brasserie Henri – Hôtel Birks, Commis de salle – Gastronomie
 
-## Brasserie Henri - Birks Hotel, Busboy – Fine Dining
+- Aoû 2023 – Déc 2023
+- Montréal, QC
+- Maintien d’un service client haut de gamme dans un environnement de luxe exigeant
+- Développement de compétences en communication, rigueur et travail d’équipe
 
-- Aug 2023 – Dec 2023
-- Montreal, QC
-- Maintained exceptional client satisfaction during high-pressure shifts
-- Developed attention to detail, **communication**, and teamwork skills
+## Restaurant Sabrosa, Commis de salle
 
-## Sabrosa Restaurant, Busboy
+- Avr 2023 – Aoû 2023
+- Montréal, QC
+- Gestion simultanée de plusieurs tables avec coordination cuisine-salle
+- Développement de réflexes en situation de stress et de relation client
 
-- Apr 2023 – Aug 2023
-- Montreal, QC
-- Managed multiple tables and coordinated with kitchen staff under pressure
-- Built interpersonal and **multitasking** skills applicable to client-facing roles
+# Compétences Techniques
 
-# Languages
+- Langages: Python (avancé), LaTeX, Markdown, Bash, C (bases), Rust (débutant)
+- Cadres ML et Optimisation: PyTorch, Lightning AI, HuggingFace
+- Modèles: Apprentissage par renforcement (PPO, A2C), GFlowNet, PINNs, XGBoost
+- Environnement de développement: Git, Conda, Docker, JupyterLab
+# Langues
 
-- French: Native
-- English: Fluent
-# Extracurricular Activities
+- Français: Langue maternelle
+- Anglais: Courant
+# Activités Extra-académiques
 
-- Enjoy strength training and gym **discipline** — consistency builds both body and mindset
-- Love working on personal tech projects, especially around AI, optimization, and simulation
-- Driven by a long-term goal of launching a **startup** that transforms ideas into real-world impact
+- Passionné de musculation — la discipline forge aussi bien le corps que l’esprit
+- Création de projets personnels en IA, optimisation et simulation
+- Ambition à long terme : lancer une **startup** à fort impact technologique

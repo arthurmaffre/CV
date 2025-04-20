@@ -7,8 +7,8 @@
 # ⚙️ CV Management
 
 🚀 Access the full PDF:
-- 🇬🇧 [Download CV (English)](rendercv_output/Arthur_Maffre_CV.pdf)
-- 🇫🇷 [Download CV (French)](rendercv_output/Arthur_Maffre_FR_CV.pdf)
+- 🇬🇧 [Download CV (English)](https://github.com/arthurmaffre/CV/blob/ebe76cc0a3cb120a15b570645b7875cc779b1d8d/rendercv_output/Arthur_Maffre_CV.pdf)
+- 🇫🇷 [Download CV (French)](https://github.com/arthurmaffre/CV/blob/ebe76cc0a3cb120a15b570645b7875cc779b1d8d/rendercv_output/Arthur_Maffre_(FR)_CV.pdf)
 
 ---
 

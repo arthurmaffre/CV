@@ -1,30 +1,30 @@
-## 📄 Aperçu du CV
+## 📄 CV Preview
 
-[![Voir le CV](rendercv_output/Arthur_Maffre_CV_1.png)](rendercv_output/Arthur_Maffre_CV.pdf)
+[![View CV](rendercv_output/Arthur_Maffre_CV_1.png)](rendercv_output/Arthur_Maffre_CV.pdf)
 
-[![Voir le CV](rendercv_output/Arthur_Maffre_CV_2.png)](rendercv_output/Arthur_Maffre_CV.pdf)
+[![View CV](rendercv_output/Arthur_Maffre_CV_2.png)](rendercv_output/Arthur_Maffre_CV.pdf)
 
 # ⚙️ CV Management
 
-🚀 Voir le CV en PDF :
-- 🇬🇧 [Télécharger le CV (anglais)](rendercv_output/Arthur_Maffre_CV.pdf)
-- 🇫🇷 [Télécharger le CV (français)](rendercv_output/Arthur_Maffre_FR_CV.pdf)
+🚀 Access the full PDF:
+- 🇬🇧 [Download CV (English)](rendercv_output/Arthur_Maffre_CV.pdf)
+- 🇫🇷 [Download CV (French)](rendercv_output/Arthur_Maffre_FR_CV.pdf)
 
 ---
 
-Ce dépôt contient les fichiers YAML permettant de générer automatiquement mes CV (versions **française** et **anglaise**) avec le moteur typographique **RenderCV**.
+This repository contains the YAML files used to automatically generate my CVs (both **French** and **English** versions) using the **RenderCV** typographic engine.
 
 ---
 
-## 🐍 Charger l’environnement Conda
+## 🐍 Load the Conda Environment
 
-Avant toute commande, active l’environnement :
+Before running any commands, make sure the environment is active:
 
 ```bash
 conda activate CV
 ```
 
-Sinon, tu peux le créer avec :
+Or create it from scratch:
 
 ```bash
 conda env create -f environnement.yaml
@@ -33,41 +33,41 @@ conda activate CV
 
 ---
 
-## 🔍 Prévisualiser un CV
+## 🔍 Preview and Render the CV
 
-Pour générer une version PDF de ton CV :
+To generate the PDF version of your CV:
 
 ```bash
 rendercv render "Arthur_Maffre_CV.yaml"
 ```
 
-Cela créera un dossier `rendercv_output/` contenant :
+This will create the `rendercv_output/` folder with:
 
-- `Arthur_Maffre_CV.pdf` – CV en format PDF
-- `Arthur_Maffre_CV.typ` – code source Typst
-- `Arthur_Maffre_CV.md` – version Markdown
-- `Arthur_Maffre_CV.html` – version HTML (compatible Grammarly)
-- `Arthur_Maffre_CV_1.png`, etc. – pages du CV en images PNG
-
----
-
-## ✏️ Modifier le contenu
-
-1. Ouvre `Arthur_Maffre_CV.yaml` ou `Arthur_Maffre_FR_CV.yaml` avec ton éditeur (ex. VS Code).
-2. Modifie les sections YAML (`Points forts`, `Formation`, `Projets de recherche`, etc.).
-3. Sauvegarde le fichier.
+- `Arthur_Maffre_CV.pdf` – PDF format
+- `Arthur_Maffre_CV.typ` – Typst source code
+- `Arthur_Maffre_CV.md` – Markdown version
+- `Arthur_Maffre_CV.html` – HTML version (can be checked with Grammarly)
+- `Arthur_Maffre_CV_1.png`, etc. – PNG images of each page
 
 ---
 
-## 🚀 Rendu automatique (mode live)
+## ✏️ Editing the CV
 
-Utilise l’option `--watch` pour que `RenderCV` régénère ton CV à chaque modification :
+1. Open either `Arthur_Maffre_CV.yaml` or `Arthur_Maffre_FR_CV.yaml` in your editor (e.g., VS Code).
+2. Edit the appropriate sections (e.g., `Highlights`, `Education`, `Research Projects`, etc.).
+3. Save the file.
+
+---
+
+## 🚀 Live rendering (auto-refresh)
+
+You can use the `--watch` mode to render the CV automatically when the file is saved:
 
 ```bash
 rendercv render --watch "Arthur_Maffre_CV.yaml"
 ```
 
-Ou :
+Or:
 
 ```bash
 rendercv render --watch "Arthur_Maffre_FR_CV.yaml"
@@ -75,7 +75,7 @@ rendercv render --watch "Arthur_Maffre_FR_CV.yaml"
 
 ---
 
-## 📂 Structure recommandée du projet
+## 📂 Recommended Project Structure
 
 ```
 CV/
@@ -93,4 +93,4 @@ CV/
 
 ---
 
-**🧠 Astuce :** Tu peux utiliser la version HTML (`.html`) pour relire ton CV
+**🧠 Tip:** Use the HTML version (`.html`) if you want to spellcheck or proofread with tools like **Grammarly**.

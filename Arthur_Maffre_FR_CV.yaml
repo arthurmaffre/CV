@@ -45,6 +45,19 @@ cv:
           - '**Moyenne cumulative :** 3.825/4.3'
 
     Projets de recherche:
+
+      - name: '[Tarification bi-niveau avec GFlowNet](https://www.researchgate.net/publication/392064095_ECN_6338_Knapsack_GFlowNet)'
+        summary: Mémoire Honor – Université de Montréal (2024–2025)
+        highlights:
+          - Modélisation d’un problème de tarification où les consommateurs résolvent un **sac à dos** pour maximiser leur utilité
+          - Simulation de la réponse des consommateurs via **GFlowNet avec Critique**, pour affiner la stratégie du leader
+          - Intégration de la programmation mixte en nombres entiers avec une dynamique de flux génératif
+      - name: '[GFlowNet-Transformer pour l’optimisation séquentielle de portefeuille](https://github.com/arthurmaffre/RMBP_finance)'
+        summary: Finaliste – Hackathon McGill-FIAM 2024
+        highlights:
+          - Développement d’un modèle **Transformer-GFlowNet** générant des séquences d’allocations d’actifs
+          - Modélisation des **coûts de transaction**, contraintes de rotation et optimisation du **Sharpe ratio dynamique**
+          - Simulation **MCMC** pour interprétation des séquences et évaluation via **XMAP**
       - name: '[Meta-FlowNet](#)'
         summary: Projet de maîtrise à Mila (2025–2027)
         highlights:
@@ -52,20 +65,6 @@ cv:
           - Modélisation de structures de type **CDF** à partir de trajectoires de flux sur des paramètres continus
           - Introduction de mécanismes d’échantillonnage adaptatif et d’apprentissage actif pour améliorer la couverture des zones complexes
           - 'Application : **génération de portefeuilles dynamiques**, optimisation stochastique'
-
-      - name: '[Tarification bi-niveau avec GFlowNet](#)'
-        summary: Mémoire Honor – Université de Montréal (2024–2025)
-        highlights:
-          - Modélisation d’un problème de tarification où les consommateurs résolvent un **sac à dos** pour maximiser leur utilité
-          - Simulation de la réponse des consommateurs via **GFlowNet avec Critique**, pour affiner la stratégie du leader
-          - Intégration de la programmation mixte en nombres entiers avec une dynamique de flux génératif
-
-      - name: '[GFlowNet-Transformer pour l’optimisation séquentielle de portefeuille](#)'
-        summary: Finaliste – Hackathon McGill-FIAM 2024
-        highlights:
-          - Développement d’un modèle **Transformer-GFlowNet** générant des séquences d’allocations d’actifs
-          - Modélisation des **coûts de transaction**, contraintes de rotation et optimisation du **Sharpe ratio dynamique**
-          - Simulation **MCMC** pour interprétation des séquences et évaluation via **XMAP**
 
     Compétitions:
       - name: '[Hackathon McGill-FIAM – Finaliste](#)'

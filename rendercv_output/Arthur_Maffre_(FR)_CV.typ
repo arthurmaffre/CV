@@ -537,20 +537,7 @@ Sep 2022 – Aoû 2025
 
 #one-col-entry(
   content: [
-    #link("#")[#strong[Meta-FlowNet]]
-
-    #v(-design-text-leading)
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Projet de maîtrise à Mila \(2025–2027\)])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Conception d’une architecture originale combinant #strong[GFlowNets] et #strong[réseaux neuronaux informés par la physique \(PINNs\)]],[Modélisation de structures de type #strong[CDF] à partir de trajectoires de flux sur des paramètres continus],[Introduction de mécanismes d’échantillonnage adaptatif et d’apprentissage actif pour améliorer la couverture des zones complexes],[Application : #strong[génération de portefeuilles dynamiques], optimisation stochastique],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-
-#one-col-entry(
-  content: [
-    #link("#")[#strong[Tarification bi-niveau avec GFlowNet]]
+    #link("https://www.researchgate.net/publication/392064095_ECN_6338_Knapsack_GFlowNet")[#strong[Tarification bi-niveau avec GFlowNet]]
 
     #v(-design-text-leading)
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Mémoire Honor – Université de Montréal \(2024–2025\)])], column-gutter: 0cm)
@@ -563,12 +550,25 @@ Sep 2022 – Aoû 2025
 
 #one-col-entry(
   content: [
-    #link("#")[#strong[GFlowNet-Transformer pour l’optimisation séquentielle de portefeuille]]
+    #link("https://github.com/arthurmaffre/RMBP_finance")[#strong[GFlowNet-Transformer pour l’optimisation séquentielle de portefeuille]]
 
     #v(-design-text-leading)
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Finaliste – Hackathon McGill-FIAM 2024])], column-gutter: 0cm)
 
 #v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Développement d’un modèle #strong[Transformer-GFlowNet] générant des séquences d’allocations d’actifs],[Modélisation des #strong[coûts de transaction], contraintes de rotation et optimisation du #strong[Sharpe ratio dynamique]],[Simulation #strong[MCMC] pour interprétation des séquences et évaluation via #strong[XMAP]],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+
+#one-col-entry(
+  content: [
+    #link("#")[#strong[Meta-FlowNet]]
+
+    #v(-design-text-leading)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Projet de maîtrise à Mila \(2025–2027\)])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Conception d’une architecture originale combinant #strong[GFlowNets] et #strong[réseaux neuronaux informés par la physique \(PINNs\)]],[Modélisation de structures de type #strong[CDF] à partir de trajectoires de flux sur des paramètres continus],[Introduction de mécanismes d’échantillonnage adaptatif et d’apprentissage actif pour améliorer la couverture des zones complexes],[Application : #strong[génération de portefeuilles dynamiques], optimisation stochastique],)
   ],
 )
 

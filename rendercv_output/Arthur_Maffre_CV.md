@@ -38,6 +38,20 @@ Graduate student at **Mila** (Université de Montréal), building intelligent sy
 
 # Research Projects
 
+## [Bilevel Pricing with GFlowNet](https://www.researchgate.net/publication/392064095_ECN_6338_Knapsack_GFlowNet)
+
+- Mar 2025 – present
+- Using a formulated a bilevel pricing model where consumers solve a knapsack problem to maximize utility
+- Used GFlowNets with **Critic** to simulate consumer response and improve leader pricing strategy
+- Integrated mixed-integer programming with generative flow dynamics
+
+## [Transformer-GFlowNet for Sequential Portfolio Optimization](https://github.com/arthurmaffre/RMBP_finance)
+
+- June 2024 – present
+- Developed a **Transformer-based** model to generate vectors of asset allocations
+- Modeled transaction costs, turnover constraints, and **dynamic Sharpe** ratio optimization
+- Used **MCMC**-based simulation for sequence interpretability and **XMAP** evaluation
+
 ## [Meta-FlowNet](#)
 
 - Mar 2025 – present
@@ -45,20 +59,6 @@ Graduate student at **Mila** (Université de Montréal), building intelligent sy
 - Modeled the generation of CDF-like **structures** from reward-flow **trajectories** over continuous parameters
 - Introduced adaptive sampling and active learning mechanisms to boost **efficiency** in hard regions
 - Application: **dynamic portfolio** sequencing, stochastic optimization
-
-## [Bilevel Pricing with GFlowNet](#)
-
-- Mar 2025 – present
-- Using a formulated a bilevel pricing model where consumers solve a knapsack problem to maximize utility
-- Used GFlowNets with **Critic** to simulate consumer response and improve leader pricing strategy
-- Integrated mixed-integer programming with generative flow dynamics
-
-## [Transformer-GFlowNet for Sequential Portfolio Optimization](#)
-
-- June 2024 – present
-- Developed a **Transformer-based** model to generate vectors of asset allocations
-- Modeled transaction costs, turnover constraints, and **dynamic Sharpe** ratio optimization
-- Used **MCMC**-based simulation for sequence interpretability and **XMAP** evaluation
 
 # Technical Skills
 

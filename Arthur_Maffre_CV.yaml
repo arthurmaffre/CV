@@ -44,6 +44,26 @@ cv:
           - Teaching assistant for * **Microeconomics I** (ECN-2040)*, a **core** 2nd-year under-graduate course
           - '**GPA:** 3.825/4.3'
     research projects:
+      - name: '[Bilevel Pricing with GFlowNet](https://www.researchgate.net/publication/392064095_ECN_6338_Knapsack_GFlowNet)'
+        date:
+        start_date: 2025-03
+        end_date: present
+        location:
+        summary: Honours Thesis – Université de Montréal (2024–2025)
+        highlights:
+          - Using a formulated a bilevel pricing model where consumers solve a knapsack problem to maximize utility
+          - Used GFlowNets with **Critic** to simulate consumer response and improve leader pricing strategy
+          - Integrated mixed-integer programming with generative flow dynamics
+      - name: '[Transformer-GFlowNet for Sequential Portfolio Optimization](https://github.com/arthurmaffre/RMBP_finance)'
+        date:
+        start_date: 2024-06
+        end_date: present
+        location:
+        summary: Finalist – McGill-FIAM Hackathon 2024
+        highlights:
+          - Developed a **Transformer-based** model to generate vectors of asset allocations
+          - Modeled transaction costs, turnover constraints, and **dynamic Sharpe** ratio optimization
+          - Used **MCMC**-based simulation for sequence interpretability and **XMAP** evaluation
       - name: '[Meta-FlowNet](#)'
         date:
         start_date: 2025-03
@@ -55,26 +75,6 @@ cv:
           - Modeled the generation of CDF-like **structures** from reward-flow **trajectories** over continuous parameters
           - Introduced adaptive sampling and active learning mechanisms to boost **efficiency** in hard regions
           - 'Application: **dynamic portfolio** sequencing, stochastic optimization'
-      - name: '[Bilevel Pricing with GFlowNet](#)'
-        date:
-        start_date: 2025-03
-        end_date: present
-        location:
-        summary: Honours Thesis – Université de Montréal (2024–2025)
-        highlights:
-          - Using a formulated a bilevel pricing model where consumers solve a knapsack problem to maximize utility
-          - Used GFlowNets with **Critic** to simulate consumer response and improve leader pricing strategy
-          - Integrated mixed-integer programming with generative flow dynamics
-      - name: '[Transformer-GFlowNet for Sequential Portfolio Optimization](#)'
-        date:
-        start_date: 2024-06
-        end_date: present
-        location:
-        summary: Finalist – McGill-FIAM Hackathon 2024
-        highlights:
-          - Developed a **Transformer-based** model to generate vectors of asset allocations
-          - Modeled transaction costs, turnover constraints, and **dynamic Sharpe** ratio optimization
-          - Used **MCMC**-based simulation for sequence interpretability and **XMAP** evaluation
     technical skills:
       - label: Languages
         details: Python (advanced), LaTeX, Markdown, Bash, C (basic), Rust (beginner)

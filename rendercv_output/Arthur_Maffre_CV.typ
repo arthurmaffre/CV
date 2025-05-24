@@ -536,24 +536,7 @@ Sept 2022 – Aug 2025
 
 #two-col-entry(
   left-content: [
-    #link("#")[#strong[Meta-FlowNet]]
-  ],
-  right-content: [
-    Mar 2025 – present
-  ],
-)
-#one-col-entry(
-  content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Mila – Master's Research Project \(2025–2027\)])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Designed a #strong[novel] architecture combining #strong[GFlowNets] with Physics-Informed Neural Networks \(#strong[PINNs]\)],[Modeled the generation of CDF-like #strong[structures] from reward-flow #strong[trajectories] over continuous parameters],[Introduced adaptive sampling and active learning mechanisms to boost #strong[efficiency] in hard regions],[Application: #strong[dynamic portfolio] sequencing, stochastic optimization],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #link("#")[#strong[Bilevel Pricing with GFlowNet]]
+    #link("https://www.researchgate.net/publication/392064095_ECN_6338_Knapsack_GFlowNet")[#strong[Bilevel Pricing with GFlowNet]]
   ],
   right-content: [
     Mar 2025 – present
@@ -570,7 +553,7 @@ Sept 2022 – Aug 2025
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #link("#")[#strong[Transformer-GFlowNet for Sequential Portfolio Optimization]]
+    #link("https://github.com/arthurmaffre/RMBP_finance")[#strong[Transformer-GFlowNet for Sequential Portfolio Optimization]]
   ],
   right-content: [
     June 2024 – present
@@ -581,6 +564,23 @@ Sept 2022 – Aug 2025
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Finalist – McGill-FIAM Hackathon 2024])], column-gutter: 0cm)
 
 #v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed a #strong[Transformer-based] model to generate vectors of asset allocations],[Modeled transaction costs, turnover constraints, and #strong[dynamic Sharpe] ratio optimization],[Used #strong[MCMC]-based simulation for sequence interpretability and #strong[XMAP] evaluation],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #link("#")[#strong[Meta-FlowNet]]
+  ],
+  right-content: [
+    Mar 2025 – present
+  ],
+)
+#one-col-entry(
+  content: [
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Mila – Master's Research Project \(2025–2027\)])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Designed a #strong[novel] architecture combining #strong[GFlowNets] with Physics-Informed Neural Networks \(#strong[PINNs]\)],[Modeled the generation of CDF-like #strong[structures] from reward-flow #strong[trajectories] over continuous parameters],[Introduced adaptive sampling and active learning mechanisms to boost #strong[efficiency] in hard regions],[Application: #strong[dynamic portfolio] sequencing, stochastic optimization],)
   ],
 )
 

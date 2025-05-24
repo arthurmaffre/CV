@@ -38,24 +38,24 @@
 
 # Projets De Recherche
 
+## [Tarification bi-niveau avec GFlowNet](https://www.researchgate.net/publication/392064095_ECN_6338_Knapsack_GFlowNet)
+
+- Modélisation d’un problème de tarification où les consommateurs résolvent un **sac à dos** pour maximiser leur utilité
+- Simulation de la réponse des consommateurs via **GFlowNet avec Critique**, pour affiner la stratégie du leader
+- Intégration de la programmation mixte en nombres entiers avec une dynamique de flux génératif
+
+## [GFlowNet-Transformer pour l’optimisation séquentielle de portefeuille](https://github.com/arthurmaffre/RMBP_finance)
+
+- Développement d’un modèle **Transformer-GFlowNet** générant des séquences d’allocations d’actifs
+- Modélisation des **coûts de transaction**, contraintes de rotation et optimisation du **Sharpe ratio dynamique**
+- Simulation **MCMC** pour interprétation des séquences et évaluation via **XMAP**
+
 ## [Meta-FlowNet](#)
 
 - Conception d’une architecture originale combinant **GFlowNets** et **réseaux neuronaux informés par la physique (PINNs)**
 - Modélisation de structures de type **CDF** à partir de trajectoires de flux sur des paramètres continus
 - Introduction de mécanismes d’échantillonnage adaptatif et d’apprentissage actif pour améliorer la couverture des zones complexes
 - Application : **génération de portefeuilles dynamiques**, optimisation stochastique
-
-## [Tarification bi-niveau avec GFlowNet](#)
-
-- Modélisation d’un problème de tarification où les consommateurs résolvent un **sac à dos** pour maximiser leur utilité
-- Simulation de la réponse des consommateurs via **GFlowNet avec Critique**, pour affiner la stratégie du leader
-- Intégration de la programmation mixte en nombres entiers avec une dynamique de flux génératif
-
-## [GFlowNet-Transformer pour l’optimisation séquentielle de portefeuille](#)
-
-- Développement d’un modèle **Transformer-GFlowNet** générant des séquences d’allocations d’actifs
-- Modélisation des **coûts de transaction**, contraintes de rotation et optimisation du **Sharpe ratio dynamique**
-- Simulation **MCMC** pour interprétation des séquences et évaluation via **XMAP**
 
 # Compétitions
 

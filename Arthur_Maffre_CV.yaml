@@ -11,12 +11,11 @@ cv:
       username: arthurmaffre
   sections:
     Highlights:
-      - bullet: Designing intelligent systems for **dynamic pricing** and **portfolio** generation
-      - bullet: Research funded by **IVADO** at **Mila** (20k/year)
+      - bullet: Designing intelligent systems for real world impact
       - bullet: Finalist at **McGill-FIAM Hackathon** | 3rd place at **Polytechnique Datathon**
-      - bullet: Bridging **AI theory** and real-world impact — from **GFlowNet** to public spending
+      - bullet: Bridging **AI theory** and real-world impact
     About Me:
-      - 'Graduate student at **Mila** (Université de Montréal), building intelligent systems that push the **boundaries of optimization** and decision-making. Currently exploring **GFlowNet**-based architectures for **pricing** and **portfolio generation**. I strive to turn complex ideas into actionable models — always aiming higher.'
+      - 'Graduate student at **Mila** (Université de Montréal), building intelligent systems that push the **boundaries of optimization** and decision-making. Currently exploring **GFlowNet**-based architectures.'
     education:
       - institution: Université de Montréal - Mila
         area: Computer Science
@@ -25,11 +24,9 @@ cv:
         start_date: 2025-09
         end_date: 2027-08
         location: Montreal, QC, CA
-        summary: 'Supervisor : Prof. Margarida Carvalho'
         highlights:
-          - Research on **GFlowNet-based** for dynamic pricing and portfolio generation
+          - Research on **GFlowNet**
           - Focus on reinforcement learning, **combinatorial optimization**, and AI planning  
-          - Funded by a $20,000/year **IVADO research scholarship**
       - institution: Université de Montréal
         area: Economics - Honours Program
         degree: BS
@@ -41,13 +38,13 @@ cv:
         highlights:
           - Research assistant on a project supervised by Prof. Arbour
           - Worked in collaboration with the Chief Justice of the Quebec Superior Court *(**$5,000 IQRDJ** research grant) on **public institution spending** modeling*
-          - Teaching assistant for * **Microeconomics I** (ECN-2040)*, a **core** 2nd-year under-graduate course
+          - Teaching assistant for * **Microeconomics I** (ECN-2040)*, a **core** 2nd-year under-graduate course'
           - '**GPA:** 3.825/4.3'
     research projects:
       - name: '[Bilevel Pricing with GFlowNet](https://www.researchgate.net/publication/392064095_ECN_6338_Knapsack_GFlowNet)'
         date:
         start_date: 2025-03
-        end_date: present
+        end_date: 2025-09
         location:
         summary: Honours Thesis – Université de Montréal (2024–2025)
         highlights:
@@ -63,18 +60,6 @@ cv:
         highlights:
           - Developed a **Transformer-based** model to generate vectors of asset allocations
           - Modeled transaction costs, turnover constraints, and **dynamic Sharpe** ratio optimization
-          - Used **MCMC**-based simulation for sequence interpretability and **XMAP** evaluation
-      - name: '[Meta-FlowNet](#)'
-        date:
-        start_date: 2025-03
-        end_date: present
-        location:
-        summary: Mila – Master's Research Project (2025–2027)
-        highlights:
-          - Designed a **novel** architecture combining **GFlowNets** with Physics-Informed Neural Networks (**PINNs**)
-          - Modeled the generation of CDF-like **structures** from reward-flow **trajectories** over continuous parameters
-          - Introduced adaptive sampling and active learning mechanisms to boost **efficiency** in hard regions
-          - 'Application: **dynamic portfolio** sequencing, stochastic optimization'
     technical skills:
       - label: Languages
         details: Python (advanced), LaTeX, Markdown, Bash, C (basic), Rust (beginner)
@@ -102,7 +87,7 @@ cv:
         location: Montreal
         summary:
         highlights:
-          - Designed an AI system to generate **financial reports** and commentary from raw data in 48 hours
+          - Designed an AI system to generate **financial reports** and commentary from raw data
           - Focused on financial language generation, analytics, and visual presentation of results
           - 'Awarded a **$500** prize'
     experience:
@@ -132,7 +117,7 @@ cv:
     extracurricular_activities:
       - bullet: Enjoy strength training and gym **discipline** — consistency builds both body and mindset
       - bullet: Love working on personal tech projects, especially around AI, optimization, and simulation
-      - bullet: Driven by a long-term goal of launching a **startup** that transforms ideas into real-world impact
+      - bullet: Passionate about human interaction, I value active listening and building strong relationships in the workplace.
 
 design:
   theme: classic

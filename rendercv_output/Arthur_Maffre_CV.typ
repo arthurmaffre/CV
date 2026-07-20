@@ -465,11 +465,7 @@
 
 
 #one-col-entry(
-  content: [- Designing intelligent systems for #strong[dynamic pricing] and #strong[portfolio] generation],
-)
-#v(design-entries-vertical-space-between-entries)
-#one-col-entry(
-  content: [- Research funded by #strong[IVADO] at #strong[Mila] \(20k\/year\)],
+  content: [- Designing intelligent systems for real world impact],
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
@@ -477,7 +473,7 @@
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [- Bridging #strong[AI theory] and real-world impact — from #strong[GFlowNet] to public spending],
+  content: [- Bridging #strong[AI theory] and real-world impact],
 )
 
 
@@ -485,7 +481,7 @@
 
 
 #one-col-entry(
-  content: [Graduate student at #strong[Mila] \(Université de Montréal\), building intelligent systems that push the #strong[boundaries of optimization] and decision-making. Currently exploring #strong[GFlowNet]-based architectures for #strong[pricing] and #strong[portfolio generation]. I strive to turn complex ideas into actionable models — always aiming higher.]
+  content: [Graduate student at #strong[Mila] \(Université de Montréal\), building intelligent systems that push the #strong[boundaries of optimization] and decision-making. Currently exploring #strong[GFlowNet]-based architectures.]
 )
 
 
@@ -500,9 +496,7 @@
     #strong[Université de Montréal - Mila], Computer Science
     #v(-design-text-leading)
 
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Supervisor : Prof. Margarida Carvalho])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Research on #strong[GFlowNet-based] for dynamic pricing and portfolio generation],[Focus on reinforcement learning, #strong[combinatorial optimization], and AI planning],[Funded by a \$20,000\/year #strong[IVADO research scholarship]],)
+    #v(design-highlights-top-margin);#highlights([Research on #strong[GFlowNet]],[Focus on reinforcement learning, #strong[combinatorial optimization], and AI planning],)
   ],
   right-content: [
     Montreal, QC, CA
@@ -520,7 +514,7 @@ Sept 2025 – Aug 2027
     #strong[Université de Montréal], Economics - Honours Program
     #v(-design-text-leading)
 
-    #v(design-highlights-top-margin);#highlights([Research assistant on a project supervised by Prof. Arbour],[Worked in collaboration with the Chief Justice of the Quebec Superior Court #emph[\(#strong[\$5,000 IQRDJ] research grant\) on #strong[public institution spending] modeling]],[Teaching assistant for #emph[ #strong[Microeconomics I] \(ECN-2040\)], a #strong[core] 2nd-year under-graduate course],[#strong[GPA:] 3.825\/4.3],)
+    #v(design-highlights-top-margin);#highlights([Research assistant on a project supervised by Prof. Arbour],[Worked in collaboration with the Chief Justice of the Quebec Superior Court #emph[\(#strong[\$5,000 IQRDJ] research grant\) on #strong[public institution spending] modeling]],[Teaching assistant for #emph[ #strong[Microeconomics I] \(ECN-2040\)], a #strong[core] 2nd-year under-graduate course'],[#strong[GPA:] 3.825\/4.3],)
   ],
   right-content: [
     Montreal, QC, CA
@@ -539,7 +533,7 @@ Sept 2022 – Aug 2025
     #link("https://www.researchgate.net/publication/392064095_ECN_6338_Knapsack_GFlowNet")[#strong[Bilevel Pricing with GFlowNet]]
   ],
   right-content: [
-    Mar 2025 – present
+    Mar 2025 – Sept 2025
   ],
 )
 #one-col-entry(
@@ -563,24 +557,7 @@ Sept 2022 – Aug 2025
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Finalist – McGill-FIAM Hackathon 2024])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed a #strong[Transformer-based] model to generate vectors of asset allocations],[Modeled transaction costs, turnover constraints, and #strong[dynamic Sharpe] ratio optimization],[Used #strong[MCMC]-based simulation for sequence interpretability and #strong[XMAP] evaluation],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #link("#")[#strong[Meta-FlowNet]]
-  ],
-  right-content: [
-    Mar 2025 – present
-  ],
-)
-#one-col-entry(
-  content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Mila – Master's Research Project \(2025–2027\)])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Designed a #strong[novel] architecture combining #strong[GFlowNets] with Physics-Informed Neural Networks \(#strong[PINNs]\)],[Modeled the generation of CDF-like #strong[structures] from reward-flow #strong[trajectories] over continuous parameters],[Introduced adaptive sampling and active learning mechanisms to boost #strong[efficiency] in hard regions],[Application: #strong[dynamic portfolio] sequencing, stochastic optimization],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed a #strong[Transformer-based] model to generate vectors of asset allocations],[Modeled transaction costs, turnover constraints, and #strong[dynamic Sharpe] ratio optimization],)
   ],
 )
 
@@ -629,7 +606,7 @@ Nov 2024
     #link("#")[#strong[Polytechnique Montreal Datathon - 3rd Place]]
     #v(-design-text-leading)
 
-    #v(design-highlights-top-margin);#highlights([Designed an AI system to generate #strong[financial reports] and commentary from raw data in 48 hours],[Focused on financial language generation, analytics, and visual presentation of results],[Awarded a #strong[\$500] prize],)
+    #v(design-highlights-top-margin);#highlights([Designed an AI system to generate #strong[financial reports] and commentary from raw data],[Focused on financial language generation, analytics, and visual presentation of results],[Awarded a #strong[\$500] prize],)
   ],
   right-content: [
     Montreal
@@ -702,7 +679,7 @@ Apr 2023 – Aug 2023
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [- Driven by a long-term goal of launching a #strong[startup] that transforms ideas into real-world impact],
+  content: [- Passionate about human interaction, I value active listening and building strong relationships in the workplace.],
 )
 
 

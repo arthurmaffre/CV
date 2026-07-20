@@ -9,13 +9,12 @@
 
 # Highlights
 
-- Designing intelligent systems for **dynamic pricing** and **portfolio** generation
-- Research funded by **IVADO** at **Mila** (20k/year)
+- Designing intelligent systems for real world impact
 - Finalist at **McGill-FIAM Hackathon** | 3rd place at **Polytechnique Datathon**
-- Bridging **AI theory** and real-world impact — from **GFlowNet** to public spending
+- Bridging **AI theory** and real-world impact
 # About Me
 
-Graduate student at **Mila** (Université de Montréal), building intelligent systems that push the **boundaries of optimization** and decision-making. Currently exploring **GFlowNet**-based architectures for **pricing** and **portfolio generation**. I strive to turn complex ideas into actionable models — always aiming higher.
+Graduate student at **Mila** (Université de Montréal), building intelligent systems that push the **boundaries of optimization** and decision-making. Currently exploring **GFlowNet**-based architectures.
 
 # Education
 
@@ -23,9 +22,8 @@ Graduate student at **Mila** (Université de Montréal), building intelligent sy
 
 - Sept 2025 – Aug 2027
 - Montreal, QC, CA
-- Research on **GFlowNet-based** for dynamic pricing and portfolio generation
+- Research on **GFlowNet**
 - Focus on reinforcement learning, **combinatorial optimization**, and AI planning
-- Funded by a $20,000/year **IVADO research scholarship**
 
 ## Université de Montréal, BS in Economics - Honours Program
 
@@ -33,14 +31,14 @@ Graduate student at **Mila** (Université de Montréal), building intelligent sy
 - Montreal, QC, CA
 - Research assistant on a project supervised by Prof. Arbour
 - Worked in collaboration with the Chief Justice of the Quebec Superior Court *(**$5,000 IQRDJ** research grant) on **public institution spending** modeling*
-- Teaching assistant for * **Microeconomics I** (ECN-2040)*, a **core** 2nd-year under-graduate course
+- Teaching assistant for * **Microeconomics I** (ECN-2040)*, a **core** 2nd-year under-graduate course'
 - **GPA:** 3.825/4.3
 
 # Research Projects
 
 ## [Bilevel Pricing with GFlowNet](https://www.researchgate.net/publication/392064095_ECN_6338_Knapsack_GFlowNet)
 
-- Mar 2025 – present
+- Mar 2025 – Sept 2025
 - Using a formulated a bilevel pricing model where consumers solve a knapsack problem to maximize utility
 - Used GFlowNets with **Critic** to simulate consumer response and improve leader pricing strategy
 - Integrated mixed-integer programming with generative flow dynamics
@@ -50,15 +48,6 @@ Graduate student at **Mila** (Université de Montréal), building intelligent sy
 - June 2024 – present
 - Developed a **Transformer-based** model to generate vectors of asset allocations
 - Modeled transaction costs, turnover constraints, and **dynamic Sharpe** ratio optimization
-- Used **MCMC**-based simulation for sequence interpretability and **XMAP** evaluation
-
-## [Meta-FlowNet](#)
-
-- Mar 2025 – present
-- Designed a **novel** architecture combining **GFlowNets** with Physics-Informed Neural Networks (**PINNs**)
-- Modeled the generation of CDF-like **structures** from reward-flow **trajectories** over continuous parameters
-- Introduced adaptive sampling and active learning mechanisms to boost **efficiency** in hard regions
-- Application: **dynamic portfolio** sequencing, stochastic optimization
 
 # Technical Skills
 
@@ -81,7 +70,7 @@ Graduate student at **Mila** (Université de Montréal), building intelligent sy
 
 - Dec 2024
 - Montreal
-- Designed an AI system to generate **financial reports** and commentary from raw data in 48 hours
+- Designed an AI system to generate **financial reports** and commentary from raw data
 - Focused on financial language generation, analytics, and visual presentation of results
 - Awarded a **$500** prize
 
@@ -109,4 +98,4 @@ Graduate student at **Mila** (Université de Montréal), building intelligent sy
 
 - Enjoy strength training and gym **discipline** — consistency builds both body and mindset
 - Love working on personal tech projects, especially around AI, optimization, and simulation
-- Driven by a long-term goal of launching a **startup** that transforms ideas into real-world impact
+- Passionate about human interaction, I value active listening and building strong relationships in the workplace.

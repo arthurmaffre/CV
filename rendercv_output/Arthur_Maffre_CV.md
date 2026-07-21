@@ -2,100 +2,100 @@
 
 - Phone: +1 514 501 7206
 - Email: [maffrearthur@gmail.com](mailto:maffrearthur@gmail.com)
-- Location: Montreal, QC
+- Location: Montréal, QC
 - LinkedIn: [arthur-maffre](https://linkedin.com/in/arthur-maffre)
 - GitHub: [arthurmaffre](https://github.com/arthurmaffre)
 
 
-# Highlights
+# Points Forts
 
-- Designing intelligent systems for real world impact
-- Finalist at **McGill-FIAM Hackathon** | 3rd place at **Polytechnique Datathon**
-- Bridging **AI theory** and real-world impact
-# About Me
+- Conception de systèmes intelligents à impact concret
+- Finaliste au **Hackathon McGill-FIAM** | 3e place au **Datathon de Polytechnique**
+- Faire le pont entre la **théorie de l'IA** et les applications concrètes
+# À Propos De Moi
 
-Graduate student at **Mila** (Université de Montréal), building intelligent systems that push the **boundaries of optimization** and decision-making. Currently exploring **GFlowNet**-based architectures.
+Étudiant à la maîtrise à **Mila** (Université de Montréal), je conçois des systèmes intelligents qui repoussent les **frontières de l'optimisation** et de la prise de décision. J'explore actuellement des architectures fondées sur les **GFlowNet**.
 
 # Education
 
-## Université de Montréal - Mila, MSC in Computer Science
+## Université de Montréal - Mila, M.Sc. in Informatique
 
-- Sept 2025 – Aug 2027
-- Montreal, QC, CA
-- Research on **GFlowNet**
-- Focus on reinforcement learning, **combinatorial optimization**, and AI planning
+- sept. 2025 – août 2027
+- Montréal, QC, CA
+- Recherche sur les **GFlowNet**
+- Axée sur l'apprentissage par renforcement, l'**optimisation combinatoire** et la planification en IA
 
-## Université de Montréal, BS in Economics - Honours Program
+## Université de Montréal, B.Sc. in Sciences économiques - Programme Honours
 
-- Sept 2022 – Aug 2025
-- Montreal, QC, CA
-- Research assistant on a project supervised by Prof. Arbour
-- Worked in collaboration with the Chief Justice of the Quebec Superior Court *(**$5,000 IQRDJ** research grant) on **public institution spending** modeling*
-- Teaching assistant for * **Microeconomics I** (ECN-2040)*, a **core** 2nd-year under-graduate course'
-- **GPA:** 3.825/4.3
+- sept. 2022 – août 2025
+- Montréal, QC, CA
+- Assistant de recherche sur un projet supervisé par le Prof. Arbour
+- Travail en collaboration avec la juge en chef de la Cour supérieure du Québec *(**bourse de recherche IQRDJ de 5 000 $**) sur la modélisation des **dépenses des institutions publiques***
+- Auxiliaire d'enseignement pour * **Microéconomie I** (ECN-2040)*, un cours **fondamental** de 2e année au premier cycle*
+- **Moyenne :** 3,825/4,3
 
-# Research Projects
+# Projets De Recherche
 
-## [Bilevel Pricing with GFlowNet](https://www.researchgate.net/publication/392064095_ECN_6338_Knapsack_GFlowNet)
+## [Tarification bilatérale avec GFlowNet](https://www.researchgate.net/publication/392064095_ECN_6338_Knapsack_GFlowNet)
 
-- Mar 2025 – Sept 2025
-- Using a formulated a bilevel pricing model where consumers solve a knapsack problem to maximize utility
-- Used GFlowNets with **Critic** to simulate consumer response and improve leader pricing strategy
-- Integrated mixed-integer programming with generative flow dynamics
+- mars 2025 – sept. 2025
+- Formulation d'un modèle de tarification bilatérale où les consommateurs résolvent un problème de sac à dos pour maximiser leur utilité
+- Utilisation de GFlowNets avec **Critic** pour simuler la réponse des consommateurs et améliorer la stratégie de tarification du meneur
+- Intégration de la programmation en nombres entiers mixtes avec la dynamique des flux génératifs
 
-## [Transformer-GFlowNet for Sequential Portfolio Optimization](https://github.com/arthurmaffre/RMBP_finance)
+## [Transformer-GFlowNet pour l'optimisation séquentielle de portefeuille](https://github.com/arthurmaffre/RMBP_finance)
 
-- June 2024 – present
-- Developed a **Transformer-based** model to generate vectors of asset allocations
-- Modeled transaction costs, turnover constraints, and **dynamic Sharpe** ratio optimization
+- juin 2024 – présent
+- Développement d'un modèle fondé sur les **Transformers** pour générer des vecteurs d'allocation d'actifs
+- Modélisation des coûts de transaction, des contraintes de rotation et de l'optimisation du **ratio de Sharpe dynamique**
 
-# Technical Skills
+# Compétences Techniques
 
-- Languages: Python (advanced), LaTeX, Markdown, Bash, C (basic), Rust (beginner)
-- Machine Learning & Optimization Framework: PyTorch, Lightning AI, HuggingFace
-- Models: Reinforcement Learning (PPO, A2C), GFlowNet, PINNs, XGBoost
-- Tools & Dev environment: Git, Conda, Docker, JupyterLab
-# Competitions
+- Langages: Python (avancé), LaTeX, Markdown, Bash, C (notions), Rust (débutant)
+- Cadres d'apprentissage automatique et d'optimisation: PyTorch, Lightning AI, HuggingFace
+- Modèles: Apprentissage par renforcement (PPO, A2C), GFlowNet, PINNs, XGBoost
+- Outils et environnement de développement: Git, Conda, Docker, JupyterLab
+# Concours
 
-## [McGill-FIAM Asset Management Hackathon - Finalist](#)
+## [Hackathon de gestion d'actifs McGill-FIAM - Finaliste](#)
 
-- Nov 2024
-- Montreal
-- Top 10 out of 66 teams
-- Built a **Portfolio Transformer** model that directly outputs allocation actions rather than predictions
-- The objective function was the **Sharpe ratio**, optimized dynamically with transaction cost constraints
-- Presented to a jury of finance professors and industry professionals
+- nov. 2024
+- Montréal
+- Top 10 sur 66 équipes
+- Conception d'un modèle **Portfolio Transformer** qui produit directement des actions d'allocation plutôt que des prédictions
+- La fonction objectif était le **ratio de Sharpe**, optimisé dynamiquement sous contraintes de coûts de transaction
+- Présentation devant un jury de professeurs de finance et de professionnels de l'industrie
 
-## [Polytechnique Montreal Datathon - 3rd Place](#)
+## [Datathon de Polytechnique Montréal - 3e place](#)
 
-- Dec 2024
-- Montreal
-- Designed an AI system to generate **financial reports** and commentary from raw data
-- Focused on financial language generation, analytics, and visual presentation of results
-- Awarded a **$500** prize
+- déc. 2024
+- Montréal
+- Conception d'un système d'IA pour générer des **rapports financiers** et des commentaires à partir de données brutes
+- Axé sur la génération de langage financier, l'analytique et la présentation visuelle des résultats
+- Prix de **500 $** remporté
 
 # Experience
 
-## Brasserie Henri - Birks Hotel, Busboy – Fine Dining
+## Brasserie Henri - Hôtel Birks, Aide-serveur – Gastronomie
 
-- Aug 2023 – Dec 2023
-- Montreal, QC
-- Maintained exceptional client satisfaction during high-pressure shifts
-- Developed attention to detail, **communication**, and teamwork skills
+- août 2023 – déc. 2023
+- Montréal, QC
+- Maintien d'une satisfaction client exceptionnelle lors de services sous pression
+- Développement du souci du détail, de la **communication** et de l'esprit d'équipe
 
-## Sabrosa Restaurant, Busboy
+## Restaurant Sabrosa, Aide-serveur
 
-- Apr 2023 – Aug 2023
-- Montreal, QC
-- Managed multiple tables and coordinated with kitchen staff under pressure
-- Built interpersonal and **multitasking** skills applicable to client-facing roles
+- avr. 2023 – août 2023
+- Montréal, QC
+- Gestion de plusieurs tables et coordination avec le personnel de cuisine sous pression
+- Développement de compétences interpersonnelles et de **polyvalence** applicables aux rôles en contact avec la clientèle
 
-# Languages
+# Langues
 
-- French: Native
-- English: Fluent
-# Extracurricular Activities
+- Français: Langue maternelle
+- Anglais: Courant
+# Activites Parascolaires
 
-- Enjoy strength training and gym **discipline** — consistency builds both body and mindset
-- Love working on personal tech projects, especially around AI, optimization, and simulation
-- Passionate about human interaction, I value active listening and building strong relationships in the workplace.
+- Passionné de musculation et de **discipline** en salle — la constance construit le corps et l'état d'esprit
+- J'aime travailler sur des projets techniques personnels, en particulier autour de l'IA, de l'optimisation et de la simulation
+- Passionné par l'interaction humaine, j'accorde de l'importance à l'écoute active et à la construction de relations solides au travail.

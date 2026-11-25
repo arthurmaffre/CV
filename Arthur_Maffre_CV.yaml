@@ -41,25 +41,51 @@ cv:
           - Teaching assistant for * **Microeconomics I** (ECN-2040)*, a **core** 2nd-year under-graduate course'
           - '**GPA:** 3.825/4.3'
     research projects:
-      - name: '[Bilevel Pricing with GFlowNet](https://www.researchgate.net/publication/392064095_ECN_6338_Knapsack_GFlowNet)'
+      - name: '[Conditional GFlowNet for Bilevel Knapsack](https://www.researchgate.net/publication/392064095_ECN_6338_Knapsack_GFlowNet)'
         date:
         start_date: 2025-03
         end_date: 2025-09
         location:
         summary: Honours Thesis – Université de Montréal (2024–2025)
         highlights:
-          - Using a formulated a bilevel pricing model where consumers solve a knapsack problem to maximize utility
-          - Used GFlowNets with **Critic** to simulate consumer response and improve leader pricing strategy
-          - Integrated mixed-integer programming with generative flow dynamics
-      - name: '[Transformer-GFlowNet for Sequential Portfolio Optimization](https://github.com/arthurmaffre/RMBP_finance)'
-        date:
-        start_date: 2024-06
-        end_date: present
+          - '**Bilevel** knapsack pricing problem: the leader sets prices, the follower solves a knapsack problem to maximize utility'
+          - '**Conditional GFlowNet**, conditioned on the leader''s decision, that successively proposes cuts for the master problem in a **Benders**-type approach'
+          - Integrated mixed-integer programming with GFlowNet-based generation
+      - name: 'LIBS Spectral Classification with a 1D Vision Transformer'
+        date: Summer 2026
         location:
-        summary: Finalist – McGill-FIAM Hackathon 2024
+        summary: Research Internship – Institut Courtois, Université de Montréal (Prof. Mickaël Dollé)
         highlights:
-          - Developed a **Transformer-based** model to generate vectors of asset allocations
-          - Modeled transaction costs, turnover constraints, and **dynamic Sharpe** ratio optimization
+          - Encoder-based classifier (**1D Vision Transformer**) for **LIBS** (laser-induced breakdown spectroscopy) spectra in solid-state chemistry
+          - Saliency analysis to interpret predictions on samples
+      - name: 'Corrections to *GFlowNet Foundations* (Bengio et al.)'
+        date: '2026'
+        location:
+        summary:
+        highlights:
+          - Identified inconsistencies in **Appendix B** and corresponded with the authors
+          - Acknowledged in the paper's acknowledgments
+    personal projects:
+      - name: 'Lab-in-the-loop Bayesian Optimization for Sensor Calibration'
+        date:
+        location:
+        summary:
+        highlights:
+          - Estimated the bias of a load-cell scale with reference weights, using a **heteroscedastic Gaussian process** and an **Expected Information Gain** acquisition function
+          - Low-cost testbed with known ground truth to validate a lab-in-the-loop optimization pipeline
+      - name: 'Quadcopter Drone with a PPO Stabilization Policy'
+        date:
+        location:
+        summary:
+        highlights:
+          - Built the drone hardware, the control code and the simulator from scratch to train a **PPO** stabilization policy
+      - name: 'Controlled Growth Chamber'
+        date:
+        location:
+        summary:
+        highlights:
+          - Built a humidity and temperature controlled chamber with **PID loops**, sensors and a control display
+          - Prototyped a learned **world model** of the system dynamics to tune the PID controllers (validated in testing, not yet deployed)
     technical skills:
       - label: Languages
         details: Python (advanced), LaTeX, Markdown, Bash, C (basic), Rust (beginner)
@@ -69,6 +95,8 @@ cv:
         details: 'Reinforcement Learning (PPO, A2C), GFlowNet, PINNs, XGBoost'
       - label: Tools & Dev environment
         details: 'Git, Conda, Docker, JupyterLab'
+      - label: Spoken Languages
+        details: French (native), English (fluent)
     Competitions:
       - name: '[McGill-FIAM Asset Management Hackathon - Finalist](#)'
         date: 2024-11
@@ -79,7 +107,6 @@ cv:
           - Top 10 out of 66 teams
           - Built a **Portfolio Transformer** model that directly outputs allocation actions rather than predictions
           - The objective function was the **Sharpe ratio**, optimized dynamically with transaction cost constraints
-          - Presented to a jury of finance professors and industry professionals
       - name: '[Polytechnique Montreal Datathon - 3rd Place](#)'
         date: 2024-12
         start_date:
@@ -88,35 +115,10 @@ cv:
         summary:
         highlights:
           - Designed an AI system to generate **financial reports** and commentary from raw data
-          - Focused on financial language generation, analytics, and visual presentation of results
           - 'Awarded a **$500** prize'
-    experience:
-      - company: Brasserie Henri - Birks Hotel
-        position: Busboy – Fine Dining
-        start_date: 2023-08
-        end_date: 2023-12
-        location: Montreal, QC
-        summary: Delivered high-end service in a fast-paced luxury restaurant environment
-        highlights:
-          - Maintained exceptional client satisfaction during high-pressure shifts
-          - Developed attention to detail, **communication**, and teamwork skills
-      - company: Sabrosa Restaurant
-        position: Busboy
-        start_date: 2023-04
-        end_date: 2023-08
-        location: Montreal, QC
-        summary: Assisted with front-of-house service in a casual dining setting
-        highlights:
-          - Managed multiple tables and coordinated with kitchen staff under pressure
-          - Built interpersonal and **multitasking** skills applicable to client-facing roles
-    languages:
-      - label: French
-        details: Native
-      - label: English
-        details: Fluent
     extracurricular_activities:
-      - bullet: Enjoy strength training and gym **discipline** — consistency builds both body and mindset
-      - bullet: Love working on personal tech projects, especially around AI, optimization, and simulation
+      - bullet: Practice **Rinzai Zen** meditation several times a week at a Montreal centre
+      - bullet: Enjoy long walks and hiking, and occasional rock climbing
       - bullet: Passionate about human interaction, I value active listening and building strong relationships in the workplace.
 
 design:
@@ -262,6 +264,6 @@ locale:
     - November
     - December
 rendercv_settings:
-  date: '2025-04-20'
+  date: '2026-11-25'
   render_command:
   bold_keywords: []

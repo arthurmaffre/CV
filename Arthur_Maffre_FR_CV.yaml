@@ -41,25 +41,51 @@ cv:
           - Auxiliaire d'enseignement pour * **Microéconomie I** (ECN-2040)*, un cours **fondamental** de 2e année au premier cycle*
           - '**Moyenne :** 3,825/4,3'
     projets de recherche:
-      - name: '[Tarification bilatérale avec GFlowNet](https://www.researchgate.net/publication/392064095_ECN_6338_Knapsack_GFlowNet)'
+      - name: '[GFlowNet conditionnel pour le sac à dos bi-niveau](https://www.researchgate.net/publication/392064095_ECN_6338_Knapsack_GFlowNet)'
         date:
         start_date: 2025-03
         end_date: 2025-09
         location:
         summary: Mémoire Honours – Université de Montréal (2024–2025)
         highlights:
-          - Formulation d'un modèle de tarification bilatérale où les consommateurs résolvent un problème de sac à dos pour maximiser leur utilité
-          - Utilisation de GFlowNets avec **Critic** pour simuler la réponse des consommateurs et améliorer la stratégie de tarification du meneur
-          - Intégration de la programmation en nombres entiers mixtes avec la dynamique des flux génératifs
-      - name: '[Transformer-GFlowNet pour l''optimisation séquentielle de portefeuille](https://github.com/arthurmaffre/RMBP_finance)'
-        date:
-        start_date: 2024-06
-        end_date: present
+          - "Problème de sac à dos **bi-niveau** de tarification : le meneur fixe les prix, le suiveur résout un sac à dos pour maximiser son utilité"
+          - '**GFlowNet conditionnel** sur la décision du meneur, qui propose successivement des coupes pour le problème maître dans une approche de type **Benders**'
+          - Intégration de la programmation en nombres entiers mixtes avec la génération par GFlowNet
+      - name: 'Classification de spectres LIBS avec un Vision Transformer 1D'
+        date: Été 2026
         location:
-        summary: Finaliste – Hackathon McGill-FIAM 2024
+        summary: Stage de recherche – Institut Courtois, Université de Montréal (Prof. Mickaël Dollé)
         highlights:
-          - Développement d'un modèle fondé sur les **Transformers** pour générer des vecteurs d'allocation d'actifs
-          - Modélisation des coûts de transaction, des contraintes de rotation et de l'optimisation du **ratio de Sharpe dynamique**
+          - Classifieur à encodeur (**Vision Transformer 1D**) pour l'analyse de spectres **LIBS** (spectroscopie sur plasma induit par laser) en chimie du solide
+          - Analyse de saillance pour interpréter les prédictions sur les échantillons
+      - name: 'Corrections de *GFlowNet Foundations* (Bengio et al.)'
+        date: '2026'
+        location:
+        summary:
+        highlights:
+          - Repérage d'incohérences dans l'**annexe B** et échanges avec les auteurs
+          - Cité dans les remerciements de l'article
+    projets personnels:
+      - name: 'Optimisation bayésienne lab-in-the-loop pour la calibration d''un capteur'
+        date:
+        location:
+        summary:
+        highlights:
+          - Estimation du biais d'une balance à cellule de charge avec des poids de référence, à l'aide d'un **processus gaussien hétéroscédastique** et d'une fonction d'acquisition **Expected Information Gain**
+          - Banc d'essai peu coûteux, à vérité terrain connue, pour valider une boucle d'optimisation lab-in-the-loop
+      - name: 'Drone quadricoptère avec politique de stabilisation PPO'
+        date:
+        location:
+        summary:
+        highlights:
+          - Construction du drone, du code de contrôle et du simulateur à partir de zéro pour entraîner une politique de stabilisation **PPO**
+      - name: 'Chambre de culture contrôlée'
+        date:
+        location:
+        summary:
+        highlights:
+          - Construction d'une chambre régulée en humidité et en température avec **boucles PID**, capteurs et écran de contrôle
+          - Prototype d'un **world model** de la dynamique du système pour calibrer les PID (validé en test, pas encore déployé)
     compétences techniques:
       - label: Langages
         details: Python (avancé), LaTeX, Markdown, Bash, C (notions), Rust (débutant)
@@ -69,6 +95,8 @@ cv:
         details: 'Apprentissage par renforcement (PPO, A2C), GFlowNet, PINNs, XGBoost'
       - label: Outils et environnement de développement
         details: 'Git, Conda, Docker, JupyterLab'
+      - label: Langues
+        details: Français (langue maternelle), anglais (courant)
     Concours:
       - name: '[Hackathon de gestion d''actifs McGill-FIAM - Finaliste](#)'
         date: 2024-11
@@ -79,7 +107,6 @@ cv:
           - Top 10 sur 66 équipes
           - Conception d'un modèle **Portfolio Transformer** qui produit directement des actions d'allocation plutôt que des prédictions
           - La fonction objectif était le **ratio de Sharpe**, optimisé dynamiquement sous contraintes de coûts de transaction
-          - Présentation devant un jury de professeurs de finance et de professionnels de l'industrie
       - name: '[Datathon de Polytechnique Montréal - 3e place](#)'
         date: 2024-12
         start_date:
@@ -88,35 +115,10 @@ cv:
         summary:
         highlights:
           - Conception d'un système d'IA pour générer des **rapports financiers** et des commentaires à partir de données brutes
-          - Axé sur la génération de langage financier, l'analytique et la présentation visuelle des résultats
           - 'Prix de **500 $** remporté'
-    experience:
-      - company: Brasserie Henri - Hôtel Birks
-        position: Aide-serveur – Gastronomie
-        start_date: 2023-08
-        end_date: 2023-12
-        location: Montréal, QC
-        summary: Service haut de gamme dans un environnement de restaurant de luxe au rythme soutenu
-        highlights:
-          - Maintien d'une satisfaction client exceptionnelle lors de services sous pression
-          - Développement du souci du détail, de la **communication** et de l'esprit d'équipe
-      - company: Restaurant Sabrosa
-        position: Aide-serveur
-        start_date: 2023-04
-        end_date: 2023-08
-        location: Montréal, QC
-        summary: Soutien au service en salle dans un cadre de restauration décontractée
-        highlights:
-          - Gestion de plusieurs tables et coordination avec le personnel de cuisine sous pression
-          - Développement de compétences interpersonnelles et de **polyvalence** applicables aux rôles en contact avec la clientèle
-    langues:
-      - label: Français
-        details: Langue maternelle
-      - label: Anglais
-        details: Courant
-    activites_parascolaires:
-      - bullet: Passionné de musculation et de **discipline** en salle — la constance construit le corps et l'état d'esprit
-      - bullet: J'aime travailler sur des projets techniques personnels, en particulier autour de l'IA, de l'optimisation et de la simulation
+    activités parascolaires:
+      - bullet: Pratique du **Zen Rinzai** plusieurs fois par semaine dans un centre à Montréal
+      - bullet: J'aime la marche et la randonnée, et je pratique occasionnellement l'escalade
       - bullet: Passionné par l'interaction humaine, j'accorde de l'importance à l'écoute active et à la construction de relations solides au travail.
 
 design:
@@ -262,6 +264,6 @@ locale:
     - novembre
     - décembre
 rendercv_settings:
-  date: '2026-07-21'
+  date: '2026-11-25'
   render_command:
   bold_keywords: []

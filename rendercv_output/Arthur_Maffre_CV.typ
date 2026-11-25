@@ -514,7 +514,7 @@ Sept 2025 – Aug 2027
     #strong[Université de Montréal], Economics - Honours Program
     #v(-design-text-leading)
 
-    #v(design-highlights-top-margin);#highlights([Research assistant on a project supervised by Prof. Arbour],[Worked in collaboration with the Chief Justice of the Quebec Superior Court #emph[\(#strong[\$5,000 IQRDJ] research grant\) on #strong[public institution spending] modeling]],[Teaching assistant for #emph[ #strong[Microeconomics I] \(ECN-2040\)], a #strong[core] 2nd-year under-graduate course'],[#strong[GPA:] 3.825\/4.3],)
+    #v(design-highlights-top-margin);#highlights([Research assistant on a project supervised by Prof. Arbour],[Worked in collaboration with the Chief Justice of the Quebec Superior Court #emph[\(#strong[\$5,000 IQRDJ] research grant\) on #strong[public institution spending] modeling]],[Teaching assistant for #emph[ #strong[Microeconomics I] \(ECN-2040\)], a #strong[core] 2nd-year under-graduate course'],[#strong[GPA:] 3.831\/4.3],)
   ],
   right-content: [
     Montreal, QC, CA

@@ -32,7 +32,7 @@ Graduate student at **Mila** (Université de Montréal), building intelligent sy
 - Research assistant on a project supervised by Prof. Arbour
 - Worked in collaboration with the Chief Justice of the Quebec Superior Court *(**$5,000 IQRDJ** research grant) on **public institution spending** modeling*
 - Teaching assistant for * **Microeconomics I** (ECN-2040)*, a **core** 2nd-year under-graduate course'
-- **GPA:** 3.825/4.3
+- **GPA:** 3.831/4.3
 
 # Research Projects
 

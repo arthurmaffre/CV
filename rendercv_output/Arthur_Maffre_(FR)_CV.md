@@ -32,7 +32,7 @@
 - Assistant de recherche sur un projet supervisé par le Prof. Arbour
 - Travail en collaboration avec la juge en chef de la Cour supérieure du Québec *(**bourse de recherche IQRDJ de 5 000 $**) sur la modélisation des **dépenses des institutions publiques***
 - Auxiliaire d'enseignement pour * **Microéconomie I** (ECN-2040)*, un cours **fondamental** de 2e année au premier cycle*
-- **Moyenne :** 3,825/4,3
+- **Moyenne :** 3,831/4,3
 
 # Projets De Recherche
 

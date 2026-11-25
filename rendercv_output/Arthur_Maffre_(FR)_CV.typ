@@ -514,7 +514,7 @@ sept. 2025 – août 2027
     #strong[Université de Montréal], Sciences économiques - Programme Honours
     #v(-design-text-leading)
 
-    #v(design-highlights-top-margin);#highlights([Assistant de recherche sur un projet supervisé par le Prof. Arbour],[Travail en collaboration avec la juge en chef de la Cour supérieure du Québec #emph[\(#strong[bourse de recherche IQRDJ de 5 000 \$]\) sur la modélisation des #strong[dépenses des institutions publiques]]],[Auxiliaire d'enseignement pour #emph[ #strong[Microéconomie I] \(ECN-2040\)], un cours #strong[fondamental] de 2e année au premier cycle#sym.ast.basic#h(0pt, weak: true) ],[#strong[Moyenne :] 3,825\/4,3],)
+    #v(design-highlights-top-margin);#highlights([Assistant de recherche sur un projet supervisé par le Prof. Arbour],[Travail en collaboration avec la juge en chef de la Cour supérieure du Québec #emph[\(#strong[bourse de recherche IQRDJ de 5 000 \$]\) sur la modélisation des #strong[dépenses des institutions publiques]]],[Auxiliaire d'enseignement pour #emph[ #strong[Microéconomie I] \(ECN-2040\)], un cours #strong[fondamental] de 2e année au premier cycle#sym.ast.basic#h(0pt, weak: true) ],[#strong[Moyenne :] 3,831\/4,3],)
   ],
   right-content: [
     Montréal, QC, CA

@@ -1,109 +1,110 @@
-# Arthur Maffre (FR)'s CV
+# Arthur Maffre's CV
 
 - Phone: +1 514 501 7206
 - Email: [maffrearthur@gmail.com](mailto:maffrearthur@gmail.com)
-- Location: Montreal, QC
+- Location: Montréal, QC
 - LinkedIn: [arthur-maffre](https://linkedin.com/in/arthur-maffre)
 - GitHub: [arthurmaffre](https://github.com/arthurmaffre)
 
 
 # Points Forts
 
-- Conception de systèmes intelligents pour la **tarification dynamique** et la **génération de portefeuilles**
-- Recherche financée par **IVADO** à **Mila** (**20 000 $/an**)
+- Conception de systèmes intelligents à impact concret
 - Finaliste au **Hackathon McGill-FIAM** | 3e place au **Datathon de Polytechnique**
-- Pont entre la **théorie de l'IA** et l’impact concret — de **GFlowNet** à la modélisation des dépenses publiques
-# À Propos
+- Faire le pont entre la **théorie de l'IA** et les applications concrètes
+# À Propos De Moi
 
-Étudiant à la maîtrise à **Mila** (Université de Montréal), je conçois des systèmes intelligents qui repoussent les limites de l’optimisation et de la prise de décision. J’explore actuellement des architectures basées sur les **GFlowNets** pour la **tarification dynamique** et la **génération de portefeuilles**. Mon objectif : transformer des idées complexes en modèles concrets, utiles, et performants.
+Étudiant à la maîtrise à **Mila** (Université de Montréal), je conçois des systèmes intelligents qui repoussent les **frontières de l'optimisation** et de la prise de décision. J'explore actuellement des architectures fondées sur les **GFlowNet**.
 
-# Formation
+# Education
 
-## Université de Montréal – Mila, M.Sc. in Informatique
+## Université de Montréal - Mila, M.Sc. in Informatique
 
-- Sep 2025 – Aoû 2027
-- Montréal, QC, Canada
-- Recherche sur l’optimisation via **GFlowNet** pour la tarification dynamique et la génération de portefeuilles
-- Focalisation sur l’apprentissage par renforcement, l’optimisation combinatoire et la planification en IA
-- Financé par une bourse de recherche **IVADO** de **20 000 $/an**
+- sept. 2025 – août 2027
+- Montréal, QC, CA
+- Recherche sur les **GFlowNet**
+- Axée sur l'apprentissage par renforcement, l'**optimisation combinatoire** et la planification en IA
 
-## Université de Montréal, B.Sc. in Économie – Programme Honor
+## Université de Montréal, B.Sc. in Sciences économiques - Programme Honours
 
-- Sep 2022 – Aoû 2025
-- Montréal, QC, Canada
-- Assistant de recherche sur un projet supervisé par le professeur Arbour
-- Collaboration avec la juge en chef de la Cour supérieure du Québec *(**bourse IQRDJ** de 5 000 $ pour la modélisation des dépenses publiques)*
-- Auxiliaire d’enseignement pour *Microéconomie I (ECN-2040)*, cours obligatoire de 2e année
-- **Moyenne cumulative :** 3.825/4.3
+- sept. 2022 – août 2025
+- Montréal, QC, CA
+- Assistant de recherche sur un projet supervisé par le Prof. Arbour
+- Travail en collaboration avec la juge en chef de la Cour supérieure du Québec *(**bourse de recherche IQRDJ de 5 000 $**) sur la modélisation des **dépenses des institutions publiques***
+- Auxiliaire d'enseignement pour * **Microéconomie I** (ECN-2040)*, un cours **fondamental** de 2e année au premier cycle*
+- **Moyenne :** 3,825/4,3
 
 # Projets De Recherche
 
-## [Tarification bi-niveau avec GFlowNet](https://www.researchgate.net/publication/392064095_ECN_6338_Knapsack_GFlowNet)
+## [Tarification bilatérale avec GFlowNet](https://www.researchgate.net/publication/392064095_ECN_6338_Knapsack_GFlowNet)
 
-- Modélisation d’un problème de tarification où les consommateurs résolvent un **sac à dos** pour maximiser leur utilité
-- Simulation de la réponse des consommateurs via **GFlowNet avec Critique**, pour affiner la stratégie du leader
-- Intégration de la programmation mixte en nombres entiers avec une dynamique de flux génératif
+- mars 2025 – sept. 2025
+- Formulation d'un modèle de tarification bilatérale où les consommateurs résolvent un problème de sac à dos pour maximiser leur utilité
+- Utilisation de GFlowNets avec **Critic** pour simuler la réponse des consommateurs et améliorer la stratégie de tarification du meneur
+- Intégration de la programmation en nombres entiers mixtes avec la dynamique des flux génératifs
 
-## [GFlowNet-Transformer pour l’optimisation séquentielle de portefeuille](https://github.com/arthurmaffre/RMBP_finance)
+## [Transformer-GFlowNet pour l'optimisation séquentielle de portefeuille](https://github.com/arthurmaffre/RMBP_finance)
 
-- Développement d’un modèle **Transformer-GFlowNet** générant des séquences d’allocations d’actifs
-- Modélisation des **coûts de transaction**, contraintes de rotation et optimisation du **Sharpe ratio dynamique**
-- Simulation **MCMC** pour interprétation des séquences et évaluation via **XMAP**
+- juin 2024 – présent
+- Développement d'un modèle fondé sur les **Transformers** pour générer des vecteurs d'allocation d'actifs
+- Modélisation des coûts de transaction, des contraintes de rotation et de l'optimisation du **ratio de Sharpe dynamique**
 
-## [Meta-FlowNet](#)
+## Corrections de *GFlowNet Foundations* (Bengio et al.)
 
-- Conception d’une architecture originale combinant **GFlowNets** et **réseaux neuronaux informés par la physique (PINNs)**
-- Modélisation de structures de type **CDF** à partir de trajectoires de flux sur des paramètres continus
-- Introduction de mécanismes d’échantillonnage adaptatif et d’apprentissage actif pour améliorer la couverture des zones complexes
-- Application : **génération de portefeuilles dynamiques**, optimisation stochastique
+- 2026
+- Repérage d'incohérences dans l'**annexe B** et échanges avec les auteurs
+- Cité dans les remerciements de l'article
 
-# Compétitions
+# Projets Personnels
 
-## [Hackathon McGill-FIAM – Finaliste](#)
+## Optimisation bayésienne lab-in-the-loop pour la calibration d'un capteur
 
-- Novembre 2024
-- Montréal
-- Top 10 sur 66 équipes
-- Conception d’un **Portfolio Transformer** générant directement des décisions d’allocation
-- Optimisation du **Sharpe ratio** sous contraintes de coût et rotation
-- Présentation devant un jury de professeurs en finance et professionnels du secteur
+- Estimation du biais d'une balance à cellule de charge avec des poids de référence, à l'aide d'un **processus gaussien hétéroscédastique** et d'une fonction d'acquisition **Expected Information Gain**
+- Banc d'essai peu coûteux, à vérité terrain connue, pour valider une boucle d'optimisation lab-in-the-loop
 
-## [Datathon Polytechnique Montréal – 3e place](#)
+## Drone quadricoptère avec politique de stabilisation PPO
 
-- Décembre 2024
-- Montréal
-- Développement en 48h d’un système IA générant des **rapports financiers** et commentaires
-- Accent mis sur le langage financier, l’analyse de données et la visualisation
-- **Prix reçu : 500 $**
+- Construction du drone, du code de contrôle et du simulateur à partir de zéro pour entraîner une politique de stabilisation **PPO**
 
-# Expériences Professionnelles
+## Chambre de culture contrôlée
 
-## Brasserie Henri – Hôtel Birks, Commis de salle – Gastronomie
-
-- Aoû 2023 – Déc 2023
-- Montréal, QC
-- Maintien d’un service client haut de gamme dans un environnement de luxe exigeant
-- Développement de compétences en communication, rigueur et travail d’équipe
-
-## Restaurant Sabrosa, Commis de salle
-
-- Avr 2023 – Aoû 2023
-- Montréal, QC
-- Gestion simultanée de plusieurs tables avec coordination cuisine-salle
-- Développement de réflexes en situation de stress et de relation client
+- Construction d'une chambre régulée en humidité et en température avec **boucles PID**, capteurs et écran de contrôle
+- Prototype d'un **world model** de la dynamique du système pour calibrer les PID (validé en test, pas encore déployé)
 
 # Compétences Techniques
 
-- Langages: Python (avancé), LaTeX, Markdown, Bash, C (bases), Rust (débutant)
-- Cadres ML et Optimisation: PyTorch, Lightning AI, HuggingFace
+- Langages: Python (avancé), LaTeX, Markdown, Bash, C (notions), Rust (débutant)
+- Cadres d'apprentissage automatique et d'optimisation: PyTorch, Lightning AI, HuggingFace
 - Modèles: Apprentissage par renforcement (PPO, A2C), GFlowNet, PINNs, XGBoost
-- Environnement de développement: Git, Conda, Docker, JupyterLab
-# Langues
+- Outils et environnement de développement: Git, Conda, Docker, JupyterLab
+- Langues: Français (langue maternelle), anglais (courant)
+# Concours
 
-- Français: Langue maternelle
-- Anglais: Courant
-# Activités Extra-académiques
+## [Hackathon de gestion d'actifs McGill-FIAM - Finaliste](#)
 
-- Passionné de musculation — la discipline forge aussi bien le corps que l’esprit
-- Création de projets personnels en IA, optimisation et simulation
-- Ambition à long terme : lancer une **startup** à fort impact technologique
+- nov. 2024
+- Montréal
+- Top 10 sur 66 équipes
+- Conception d'un modèle **Portfolio Transformer** qui produit directement des actions d'allocation plutôt que des prédictions
+- La fonction objectif était le **ratio de Sharpe**, optimisé dynamiquement sous contraintes de coûts de transaction
+
+## [Datathon de Polytechnique Montréal - 3e place](#)
+
+- déc. 2024
+- Montréal
+- Conception d'un système d'IA pour générer des **rapports financiers** et des commentaires à partir de données brutes
+- Prix de **500 $** remporté
+
+# Experience
+
+## Institut Courtois - Université de Montréal, Stagiaire de recherche – Chimie du solide (Prof. Mickaël Dollé)
+
+- Été 2026
+- Montréal, QC
+- Analyse de spectres **LIBS** : classifieur à encodeur (**Vision Transformer 1D**) et analyse de saillance pour interpréter les prédictions
+
+# Activités Parascolaires
+
+- Pratique du **Zen Rinzai** plusieurs fois par semaine dans un centre à Montréal
+- J'aime la marche et la randonnée, et je pratique occasionnellement l'escalade
+- Passionné par l'interaction humaine, j'accorde de l'importance à l'écoute active et à la construction de relations solides au travail.

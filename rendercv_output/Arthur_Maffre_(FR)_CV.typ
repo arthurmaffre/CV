@@ -1,9 +1,9 @@
 
 #import "@preview/fontawesome:0.5.0": fa-icon
 
-#let name = "Arthur Maffre (FR)"
-#let locale-catalog-page-numbering-style = context { "Arthur Maffre (FR) - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Last updated in Avr 2025"
+#let name = "Arthur Maffre"
+#let locale-catalog-page-numbering-style = context { "Arthur Maffre - Page " + str(here().page()) + " sur " + str(counter(page).final().first()) + "" }
+#let locale-catalog-last-updated-date-style = "Dernière mise à jour en juill. 2026"
 #let locale-catalog-language = "fr"
 #let design-page-size = "us-letter"
 #let design-section-titles-font-size = 1.4em
@@ -447,11 +447,11 @@
   )
 ]
 
-= Arthur Maffre \(FR\)
+= Arthur Maffre
 
 // Print connections:
 #let connections-list = (
-  [#fa-icon("location-dot", size: 0.9em) #h(0.05cm)Montreal, QC],
+  [#fa-icon("location-dot", size: 0.9em) #h(0.05cm)Montréal, QC],
   [#box(original-link("mailto:maffrearthur@gmail.com")[#fa-icon("envelope", size: 0.9em) #h(0.05cm)maffrearthur\@gmail.com])],
   [#box(original-link("tel:+1-514-501-7206")[#fa-icon("phone", size: 0.9em) #h(0.05cm)\(514\) 501-7206])],
   [#box(original-link("https://linkedin.com/in/arthur-maffre")[#fa-icon("linkedin", size: 0.9em) #h(0.05cm)arthur-maffre])],
@@ -465,11 +465,7 @@
 
 
 #one-col-entry(
-  content: [- Conception de systèmes intelligents pour la #strong[tarification dynamique] et la #strong[génération de portefeuilles]],
-)
-#v(design-entries-vertical-space-between-entries)
-#one-col-entry(
-  content: [- Recherche financée par #strong[IVADO] à #strong[Mila] \(#strong[20 000 \$\/an]\)],
+  content: [- Conception de systèmes intelligents à impact concret],
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
@@ -477,19 +473,19 @@
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [- Pont entre la #strong[théorie de l'IA] et l’impact concret — de #strong[GFlowNet] à la modélisation des dépenses publiques],
+  content: [- Faire le pont entre la #strong[théorie de l'IA] et les applications concrètes],
 )
 
 
-== À Propos
+== À Propos De Moi
 
 
 #one-col-entry(
-  content: [Étudiant à la maîtrise à #strong[Mila] \(Université de Montréal\), je conçois des systèmes intelligents qui repoussent les limites de l’optimisation et de la prise de décision. J’explore actuellement des architectures basées sur les #strong[GFlowNets] pour la #strong[tarification dynamique] et la #strong[génération de portefeuilles]. Mon objectif : transformer des idées complexes en modèles concrets, utiles, et performants.]
+  content: [Étudiant à la maîtrise à #strong[Mila] \(Université de Montréal\), je conçois des systèmes intelligents qui repoussent les #strong[frontières de l'optimisation] et de la prise de décision. J'explore actuellement des architectures fondées sur les #strong[GFlowNet].]
 )
 
 
-== Formation
+== Education
 
 
 // YES DATE, YES DEGREE
@@ -497,17 +493,15 @@
   left-column-width: 0.8cm,
   left-content: [#strong[M.Sc.]],
   middle-content: [
-    #strong[Université de Montréal – Mila], Informatique
+    #strong[Université de Montréal - Mila], Informatique
     #v(-design-text-leading)
 
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Directrice de recherche : Prof. Margarida Carvalho])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Recherche sur l’optimisation via #strong[GFlowNet] pour la tarification dynamique et la génération de portefeuilles],[Focalisation sur l’apprentissage par renforcement, l’optimisation combinatoire et la planification en IA],[Financé par une bourse de recherche #strong[IVADO] de #strong[20 000 \$\/an]],)
+    #v(design-highlights-top-margin);#highlights([Recherche sur les #strong[GFlowNet]],[Axée sur l'apprentissage par renforcement, l'#strong[optimisation combinatoire] et la planification en IA],)
   ],
   right-content: [
-    Montréal, QC, Canada
+    Montréal, QC, CA
 
-Sep 2025 – Aoû 2027
+sept. 2025 – août 2027
   ],
 )
 
@@ -517,15 +511,15 @@ Sep 2025 – Aoû 2027
   left-column-width: 0.8cm,
   left-content: [#strong[B.Sc.]],
   middle-content: [
-    #strong[Université de Montréal], Économie – Programme Honor
+    #strong[Université de Montréal], Sciences économiques - Programme Honours
     #v(-design-text-leading)
 
-    #v(design-highlights-top-margin);#highlights([Assistant de recherche sur un projet supervisé par le professeur Arbour],[Collaboration avec la juge en chef de la Cour supérieure du Québec #emph[\(#strong[bourse IQRDJ] de 5 000 \$ pour la modélisation des dépenses publiques\)]],[Auxiliaire d’enseignement pour #emph[Microéconomie I \(ECN-2040\)], cours obligatoire de 2e année],[#strong[Moyenne cumulative :] 3.825\/4.3],)
+    #v(design-highlights-top-margin);#highlights([Assistant de recherche sur un projet supervisé par le Prof. Arbour],[Travail en collaboration avec la juge en chef de la Cour supérieure du Québec #emph[\(#strong[bourse de recherche IQRDJ de 5 000 \$]\) sur la modélisation des #strong[dépenses des institutions publiques]]],[Auxiliaire d'enseignement pour #emph[ #strong[Microéconomie I] \(ECN-2040\)], un cours #strong[fondamental] de 2e année au premier cycle#sym.ast.basic#h(0pt, weak: true) ],[#strong[Moyenne :] 3,825\/4,3],)
   ],
   right-content: [
-    Montréal, QC, Canada
+    Montréal, QC, CA
 
-Sep 2022 – Aoû 2025
+sept. 2022 – août 2025
   ],
 )
 
@@ -534,28 +528,66 @@ Sep 2022 – Aoû 2025
 == Projets De Recherche
 
 
-
+#two-col-entry(
+  left-content: [
+    #link("https://www.researchgate.net/publication/392064095_ECN_6338_Knapsack_GFlowNet")[#strong[Tarification bilatérale avec GFlowNet]]
+  ],
+  right-content: [
+    mars 2025 – sept. 2025
+  ],
+)
 #one-col-entry(
   content: [
-    #link("https://www.researchgate.net/publication/392064095_ECN_6338_Knapsack_GFlowNet")[#strong[Tarification bi-niveau avec GFlowNet]]
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Mémoire Honours – Université de Montréal \(2024–2025\)])], column-gutter: 0cm)
 
-    #v(-design-text-leading)
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Mémoire Honor – Université de Montréal \(2024–2025\)])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Modélisation d’un problème de tarification où les consommateurs résolvent un #strong[sac à dos] pour maximiser leur utilité],[Simulation de la réponse des consommateurs via #strong[GFlowNet avec Critique], pour affiner la stratégie du leader],[Intégration de la programmation mixte en nombres entiers avec une dynamique de flux génératif],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Formulation d'un modèle de tarification bilatérale où les consommateurs résolvent un problème de sac à dos pour maximiser leur utilité],[Utilisation de GFlowNets avec #strong[Critic] pour simuler la réponse des consommateurs et améliorer la stratégie de tarification du meneur],[Intégration de la programmation en nombres entiers mixtes avec la dynamique des flux génératifs],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
-
+#two-col-entry(
+  left-content: [
+    #link("https://github.com/arthurmaffre/RMBP_finance")[#strong[Transformer-GFlowNet pour l'optimisation séquentielle de portefeuille]]
+  ],
+  right-content: [
+    juin 2024 – présent
+  ],
+)
 #one-col-entry(
   content: [
-    #link("https://github.com/arthurmaffre/RMBP_finance")[#strong[GFlowNet-Transformer pour l’optimisation séquentielle de portefeuille]]
-
-    #v(-design-text-leading)
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Finaliste – Hackathon McGill-FIAM 2024])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Développement d’un modèle #strong[Transformer-GFlowNet] générant des séquences d’allocations d’actifs],[Modélisation des #strong[coûts de transaction], contraintes de rotation et optimisation du #strong[Sharpe ratio dynamique]],[Simulation #strong[MCMC] pour interprétation des séquences et évaluation via #strong[XMAP]],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Développement d'un modèle fondé sur les #strong[Transformers] pour générer des vecteurs d'allocation d'actifs],[Modélisation des coûts de transaction, des contraintes de rotation et de l'optimisation du #strong[ratio de Sharpe dynamique]],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[Corrections de #emph[GFlowNet Foundations] \(Bengio et al.\)]
+  ],
+  right-content: [
+    2026
+  ],
+)
+#one-col-entry(
+  content: [
+    #v(design-highlights-top-margin);#highlights([Repérage d'incohérences dans l'#strong[annexe B] et échanges avec les auteurs],[Cité dans les remerciements de l'article],)
+  ],
+)
+
+
+
+== Projets Personnels
+
+
+
+#one-col-entry(
+  content: [
+    #strong[Optimisation bayésienne lab-in-the-loop pour la calibration d'un capteur]
+
+    #v(-design-text-leading)
+    #v(design-highlights-top-margin);#highlights([Estimation du biais d'une balance à cellule de charge avec des poids de référence, à l'aide d'un #strong[processus gaussien hétéroscédastique] et d'une fonction d'acquisition #strong[Expected Information Gain]],[Banc d'essai peu coûteux, à vérité terrain connue, pour valider une boucle d'optimisation lab-in-the-loop],)
   ],
 )
 
@@ -563,80 +595,21 @@ Sep 2022 – Aoû 2025
 
 #one-col-entry(
   content: [
-    #link("#")[#strong[Meta-FlowNet]]
+    #strong[Drone quadricoptère avec politique de stabilisation PPO]
 
     #v(-design-text-leading)
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Projet de maîtrise à Mila \(2025–2027\)])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Conception d’une architecture originale combinant #strong[GFlowNets] et #strong[réseaux neuronaux informés par la physique \(PINNs\)]],[Modélisation de structures de type #strong[CDF] à partir de trajectoires de flux sur des paramètres continus],[Introduction de mécanismes d’échantillonnage adaptatif et d’apprentissage actif pour améliorer la couverture des zones complexes],[Application : #strong[génération de portefeuilles dynamiques], optimisation stochastique],)
-  ],
-)
-
-
-
-== Compétitions
-
-
-#two-col-entry(
-  left-content: [
-    #link("#")[#strong[Hackathon McGill-FIAM – Finaliste]]
-    #v(-design-text-leading)
-
-    #v(design-highlights-top-margin);#highlights([Top 10 sur 66 équipes],[Conception d’un #strong[Portfolio Transformer] générant directement des décisions d’allocation],[Optimisation du #strong[Sharpe ratio] sous contraintes de coût et rotation],[Présentation devant un jury de professeurs en finance et professionnels du secteur],)
-  ],
-  right-content: [
-    Montréal
-
-Novembre 2024
+    #v(design-highlights-top-margin);#highlights([Construction du drone, du code de contrôle et du simulateur à partir de zéro pour entraîner une politique de stabilisation #strong[PPO]],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #link("#")[#strong[Datathon Polytechnique Montréal – 3e place]]
+
+#one-col-entry(
+  content: [
+    #strong[Chambre de culture contrôlée]
+
     #v(-design-text-leading)
-
-    #v(design-highlights-top-margin);#highlights([Développement en 48h d’un système IA générant des #strong[rapports financiers] et commentaires],[Accent mis sur le langage financier, l’analyse de données et la visualisation],[#strong[Prix reçu : 500 \$]],)
-  ],
-  right-content: [
-    Montréal
-
-Décembre 2024
-  ],
-)
-
-
-
-== Expériences Professionnelles
-
-
-#two-col-entry(
-  left-content: [
-    #strong[Brasserie Henri – Hôtel Birks], Commis de salle – Gastronomie
-    #v(-design-text-leading)
-
-    #v(design-highlights-top-margin);#highlights([Maintien d’un service client haut de gamme dans un environnement de luxe exigeant],[Développement de compétences en communication, rigueur et travail d’équipe],)
-  ],
-  right-content: [
-    Montréal, QC
-
-Aoû 2023 – Déc 2023
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Restaurant Sabrosa], Commis de salle
-    #v(-design-text-leading)
-
-    #v(design-highlights-top-margin);#highlights([Gestion simultanée de plusieurs tables avec coordination cuisine-salle],[Développement de réflexes en situation de stress et de relation client],)
-  ],
-  right-content: [
-    Montréal, QC
-
-Avr 2023 – Aoû 2023
+    #v(design-highlights-top-margin);#highlights([Construction d'une chambre régulée en humidité et en température avec #strong[boucles PID], capteurs et écran de contrôle],[Prototype d'un #strong[world model] de la dynamique du système pour calibrer les PID \(validé en test, pas encore déployé\)],)
   ],
 )
 
@@ -646,11 +619,11 @@ Avr 2023 – Aoû 2023
 
 
 #one-col-entry(
-  content: [#strong[Langages:] Python \(avancé\), LaTeX, Markdown, Bash, C \(bases\), Rust \(débutant\)]
+  content: [#strong[Langages:] Python \(avancé\), LaTeX, Markdown, Bash, C \(notions\), Rust \(débutant\)]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Cadres ML et Optimisation:] PyTorch, Lightning AI, HuggingFace]
+  content: [#strong[Cadres d'apprentissage automatique et d'optimisation:] PyTorch, Lightning AI, HuggingFace]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
@@ -658,35 +631,80 @@ Avr 2023 – Aoû 2023
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Environnement de développement:] Git, Conda, Docker, JupyterLab]
-)
-
-
-== Langues
-
-
-#one-col-entry(
-  content: [#strong[Français:] Langue maternelle]
+  content: [#strong[Outils et environnement de développement:] Git, Conda, Docker, JupyterLab]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Anglais:] Courant]
+  content: [#strong[Langues:] Français \(langue maternelle\), anglais \(courant\)]
 )
 
 
-== Activités Extra-académiques
+== Concours
+
+
+#two-col-entry(
+  left-content: [
+    #link("#")[#strong[Hackathon de gestion d'actifs McGill-FIAM - Finaliste]]
+    #v(-design-text-leading)
+
+    #v(design-highlights-top-margin);#highlights([Top 10 sur 66 équipes],[Conception d'un modèle #strong[Portfolio Transformer] qui produit directement des actions d'allocation plutôt que des prédictions],[La fonction objectif était le #strong[ratio de Sharpe], optimisé dynamiquement sous contraintes de coûts de transaction],)
+  ],
+  right-content: [
+    Montréal
+
+nov. 2024
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #link("#")[#strong[Datathon de Polytechnique Montréal - 3e place]]
+    #v(-design-text-leading)
+
+    #v(design-highlights-top-margin);#highlights([Conception d'un système d'IA pour générer des #strong[rapports financiers] et des commentaires à partir de données brutes],[Prix de #strong[500 \$] remporté],)
+  ],
+  right-content: [
+    Montréal
+
+déc. 2024
+  ],
+)
+
+
+
+== Experience
+
+
+#two-col-entry(
+  left-content: [
+    #strong[Institut Courtois - Université de Montréal], Stagiaire de recherche – Chimie du solide \(Prof. Mickaël Dollé\)
+    #v(-design-text-leading)
+
+    #v(design-highlights-top-margin);#highlights([Analyse de spectres #strong[LIBS] : classifieur à encodeur \(#strong[Vision Transformer 1D]\) et analyse de saillance pour interpréter les prédictions],)
+  ],
+  right-content: [
+    Montréal, QC
+
+Été 2026
+  ],
+)
+
+
+
+== Activités Parascolaires
 
 
 #one-col-entry(
-  content: [- Passionné de musculation — la discipline forge aussi bien le corps que l’esprit],
+  content: [- Pratique du #strong[Zen Rinzai] plusieurs fois par semaine dans un centre à Montréal],
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [- Création de projets personnels en IA, optimisation et simulation],
+  content: [- J'aime la marche et la randonnée, et je pratique occasionnellement l'escalade],
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [- Ambition à long terme : lancer une #strong[startup] à fort impact technologique],
+  content: [- Passionné par l'interaction humaine, j'accorde de l'importance à l'écoute active et à la construction de relations solides au travail.],
 )
 
 

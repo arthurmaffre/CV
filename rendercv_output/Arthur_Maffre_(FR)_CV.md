@@ -24,6 +24,7 @@
 - Montréal, QC, CA
 - Recherche sur les **GFlowNet**
 - Axée sur l'apprentissage par renforcement, l'**optimisation combinatoire** et la planification en IA
+- **Moyenne :** 3,7/4,3
 
 ## Université de Montréal, B.Sc. in Sciences économiques - Programme Honours
 

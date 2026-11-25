@@ -496,7 +496,7 @@
     #strong[Université de Montréal - Mila], Computer Science
     #v(-design-text-leading)
 
-    #v(design-highlights-top-margin);#highlights([Research on #strong[GFlowNet]],[Focus on reinforcement learning, #strong[combinatorial optimization], and AI planning],)
+    #v(design-highlights-top-margin);#highlights([Research on #strong[GFlowNet]],[Focus on reinforcement learning, #strong[combinatorial optimization], and AI planning],[#strong[GPA:] 3.7\/4.3],)
   ],
   right-content: [
     Montreal, QC, CA

@@ -24,6 +24,7 @@ Graduate student at **Mila** (Université de Montréal), building intelligent sy
 - Montreal, QC, CA
 - Research on **GFlowNet**
 - Focus on reinforcement learning, **combinatorial optimization**, and AI planning
+- **GPA:** 3.7/4.3
 
 ## Université de Montréal, BS in Economics - Honours Program
 

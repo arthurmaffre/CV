@@ -496,7 +496,7 @@
     #strong[Université de Montréal - Mila], Informatique
     #v(-design-text-leading)
 
-    #v(design-highlights-top-margin);#highlights([Recherche sur les #strong[GFlowNet]],[Axée sur l'apprentissage par renforcement, l'#strong[optimisation combinatoire] et la planification en IA],)
+    #v(design-highlights-top-margin);#highlights([Recherche sur les #strong[GFlowNet]],[Axée sur l'apprentissage par renforcement, l'#strong[optimisation combinatoire] et la planification en IA],[#strong[Moyenne :] 3,7\/4,3],)
   ],
   right-content: [
     Montréal, QC, CA

@@ -36,18 +36,18 @@ Graduate student at **Mila** (Université de Montréal), building intelligent sy
 
 # Research Projects
 
-## [Bilevel Pricing with GFlowNet](https://www.researchgate.net/publication/392064095_ECN_6338_Knapsack_GFlowNet)
+## [Conditional GFlowNet for Bilevel Knapsack](https://www.researchgate.net/publication/392064095_ECN_6338_Knapsack_GFlowNet)
 
 - Mar 2025 – Sept 2025
-- Formulated a bilevel pricing model where consumers solve a knapsack problem to maximize utility
-- Used GFlowNets with **Critic** to simulate consumer response and improve leader pricing strategy
-- Integrated mixed-integer programming with generative flow dynamics
+- **Bilevel** knapsack pricing problem: the leader sets prices, the follower solves a knapsack problem to maximize utility
+- **Conditional GFlowNet**, conditioned on the leader's decision, that successively proposes cuts for the master problem in a **Benders**-type approach
+- Integrated mixed-integer programming with GFlowNet-based generation
 
-## [Transformer-GFlowNet for Sequential Portfolio Optimization](https://github.com/arthurmaffre/RMBP_finance)
+## LIBS Spectral Classification with a 1D Vision Transformer
 
-- June 2024 – present
-- Developed a **Transformer-based** model to generate vectors of asset allocations
-- Modeled transaction costs, turnover constraints, and **dynamic Sharpe** ratio optimization
+- Summer 2026
+- Encoder-based classifier (**1D Vision Transformer**) for **LIBS** (laser-induced breakdown spectroscopy) spectra in solid-state chemistry
+- Saliency analysis to interpret predictions on samples
 
 ## Corrections to *GFlowNet Foundations* (Bengio et al.)
 
@@ -94,14 +94,6 @@ Graduate student at **Mila** (Université de Montréal), building intelligent sy
 - Montreal
 - Designed an AI system to generate **financial reports** and commentary from raw data
 - Awarded a **$500** prize
-
-# Experience
-
-## Institut Courtois - Université de Montréal, Research Intern – Solid-State Chemistry (Prof. Mickaël Dollé)
-
-- Summer 2026
-- Montreal, QC
-- **LIBS** spectral analysis: encoder-based classifier (**1D Vision Transformer**) with saliency analysis to interpret predictions
 
 # Extracurricular Activities
 

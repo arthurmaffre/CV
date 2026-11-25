@@ -530,7 +530,7 @@ Sept 2022 – Aug 2025
 
 #two-col-entry(
   left-content: [
-    #link("https://www.researchgate.net/publication/392064095_ECN_6338_Knapsack_GFlowNet")[#strong[Bilevel Pricing with GFlowNet]]
+    #link("https://www.researchgate.net/publication/392064095_ECN_6338_Knapsack_GFlowNet")[#strong[Conditional GFlowNet for Bilevel Knapsack]]
   ],
   right-content: [
     Mar 2025 – Sept 2025
@@ -540,24 +540,24 @@ Sept 2022 – Aug 2025
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Honours Thesis – Université de Montréal \(2024–2025\)])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Formulated a bilevel pricing model where consumers solve a knapsack problem to maximize utility],[Used GFlowNets with #strong[Critic] to simulate consumer response and improve leader pricing strategy],[Integrated mixed-integer programming with generative flow dynamics],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([#strong[Bilevel] knapsack pricing problem: the leader sets prices, the follower solves a knapsack problem to maximize utility],[#strong[Conditional GFlowNet], conditioned on the leader's decision, that successively proposes cuts for the master problem in a #strong[Benders]-type approach],[Integrated mixed-integer programming with GFlowNet-based generation],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #link("https://github.com/arthurmaffre/RMBP_finance")[#strong[Transformer-GFlowNet for Sequential Portfolio Optimization]]
+    #strong[LIBS Spectral Classification with a 1D Vision Transformer]
   ],
   right-content: [
-    June 2024 – present
+    Summer 2026
   ],
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Finalist – McGill-FIAM Hackathon 2024])], column-gutter: 0cm)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Research Internship – Institut Courtois, Université de Montréal \(Prof. Mickaël Dollé\)])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed a #strong[Transformer-based] model to generate vectors of asset allocations],[Modeled transaction costs, turnover constraints, and #strong[dynamic Sharpe] ratio optimization],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Encoder-based classifier \(#strong[1D Vision Transformer]\) for #strong[LIBS] \(laser-induced breakdown spectroscopy\) spectra in solid-state chemistry],[Saliency analysis to interpret predictions on samples],)
   ],
 )
 
@@ -668,25 +668,6 @@ Nov 2024
     Montreal
 
 Dec 2024
-  ],
-)
-
-
-
-== Experience
-
-
-#two-col-entry(
-  left-content: [
-    #strong[Institut Courtois - Université de Montréal], Research Intern – Solid-State Chemistry \(Prof. Mickaël Dollé\)
-    #v(-design-text-leading)
-
-    #v(design-highlights-top-margin);#highlights([#strong[LIBS] spectral analysis: encoder-based classifier \(#strong[1D Vision Transformer]\) with saliency analysis to interpret predictions],)
-  ],
-  right-content: [
-    Montreal, QC
-
-Summer 2026
   ],
 )
 

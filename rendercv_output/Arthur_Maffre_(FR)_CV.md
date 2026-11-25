@@ -36,18 +36,18 @@
 
 # Projets De Recherche
 
-## [Tarification bilatérale avec GFlowNet](https://www.researchgate.net/publication/392064095_ECN_6338_Knapsack_GFlowNet)
+## [GFlowNet conditionnel pour le sac à dos bi-niveau](https://www.researchgate.net/publication/392064095_ECN_6338_Knapsack_GFlowNet)
 
 - mars 2025 – sept. 2025
-- Formulation d'un modèle de tarification bilatérale où les consommateurs résolvent un problème de sac à dos pour maximiser leur utilité
-- Utilisation de GFlowNets avec **Critic** pour simuler la réponse des consommateurs et améliorer la stratégie de tarification du meneur
-- Intégration de la programmation en nombres entiers mixtes avec la dynamique des flux génératifs
+- Problème de sac à dos **bi-niveau** de tarification : le meneur fixe les prix, le suiveur résout un sac à dos pour maximiser son utilité
+- **GFlowNet conditionnel** sur la décision du meneur, qui propose successivement des coupes pour le problème maître dans une approche de type **Benders**
+- Intégration de la programmation en nombres entiers mixtes avec la génération par GFlowNet
 
-## [Transformer-GFlowNet pour l'optimisation séquentielle de portefeuille](https://github.com/arthurmaffre/RMBP_finance)
+## Classification de spectres LIBS avec un Vision Transformer 1D
 
-- juin 2024 – présent
-- Développement d'un modèle fondé sur les **Transformers** pour générer des vecteurs d'allocation d'actifs
-- Modélisation des coûts de transaction, des contraintes de rotation et de l'optimisation du **ratio de Sharpe dynamique**
+- Été 2026
+- Classifieur à encodeur (**Vision Transformer 1D**) pour l'analyse de spectres **LIBS** (spectroscopie sur plasma induit par laser) en chimie du solide
+- Analyse de saillance pour interpréter les prédictions sur les échantillons
 
 ## Corrections de *GFlowNet Foundations* (Bengio et al.)
 
@@ -94,14 +94,6 @@
 - Montréal
 - Conception d'un système d'IA pour générer des **rapports financiers** et des commentaires à partir de données brutes
 - Prix de **500 $** remporté
-
-# Experience
-
-## Institut Courtois - Université de Montréal, Stagiaire de recherche – Chimie du solide (Prof. Mickaël Dollé)
-
-- Été 2026
-- Montréal, QC
-- Analyse de spectres **LIBS** : classifieur à encodeur (**Vision Transformer 1D**) et analyse de saillance pour interpréter les prédictions
 
 # Activités Parascolaires
 

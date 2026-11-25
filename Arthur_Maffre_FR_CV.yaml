@@ -41,25 +41,23 @@ cv:
           - Auxiliaire d'enseignement pour * **Microéconomie I** (ECN-2040)*, un cours **fondamental** de 2e année au premier cycle*
           - '**Moyenne :** 3,825/4,3'
     projets de recherche:
-      - name: '[Tarification bilatérale avec GFlowNet](https://www.researchgate.net/publication/392064095_ECN_6338_Knapsack_GFlowNet)'
+      - name: '[GFlowNet conditionnel pour le sac à dos bi-niveau](https://www.researchgate.net/publication/392064095_ECN_6338_Knapsack_GFlowNet)'
         date:
         start_date: 2025-03
         end_date: 2025-09
         location:
         summary: Mémoire Honours – Université de Montréal (2024–2025)
         highlights:
-          - Formulation d'un modèle de tarification bilatérale où les consommateurs résolvent un problème de sac à dos pour maximiser leur utilité
-          - Utilisation de GFlowNets avec **Critic** pour simuler la réponse des consommateurs et améliorer la stratégie de tarification du meneur
-          - Intégration de la programmation en nombres entiers mixtes avec la dynamique des flux génératifs
-      - name: '[Transformer-GFlowNet pour l''optimisation séquentielle de portefeuille](https://github.com/arthurmaffre/RMBP_finance)'
-        date:
-        start_date: 2024-06
-        end_date: present
+          - "Problème de sac à dos **bi-niveau** de tarification : le meneur fixe les prix, le suiveur résout un sac à dos pour maximiser son utilité"
+          - '**GFlowNet conditionnel** sur la décision du meneur, qui propose successivement des coupes pour le problème maître dans une approche de type **Benders**'
+          - Intégration de la programmation en nombres entiers mixtes avec la génération par GFlowNet
+      - name: 'Classification de spectres LIBS avec un Vision Transformer 1D'
+        date: Été 2026
         location:
-        summary: Finaliste – Hackathon McGill-FIAM 2024
+        summary: Stage de recherche – Institut Courtois, Université de Montréal (Prof. Mickaël Dollé)
         highlights:
-          - Développement d'un modèle fondé sur les **Transformers** pour générer des vecteurs d'allocation d'actifs
-          - Modélisation des coûts de transaction, des contraintes de rotation et de l'optimisation du **ratio de Sharpe dynamique**
+          - Classifieur à encodeur (**Vision Transformer 1D**) pour l'analyse de spectres **LIBS** (spectroscopie sur plasma induit par laser) en chimie du solide
+          - Analyse de saillance pour interpréter les prédictions sur les échantillons
       - name: 'Corrections de *GFlowNet Foundations* (Bengio et al.)'
         date: '2026'
         location:
@@ -118,14 +116,6 @@ cv:
         highlights:
           - Conception d'un système d'IA pour générer des **rapports financiers** et des commentaires à partir de données brutes
           - 'Prix de **500 $** remporté'
-    experience:
-      - company: Institut Courtois - Université de Montréal
-        position: Stagiaire de recherche – Chimie du solide (Prof. Mickaël Dollé)
-        date: Été 2026
-        location: Montréal, QC
-        summary:
-        highlights:
-          - "Analyse de spectres **LIBS** : classifieur à encodeur (**Vision Transformer 1D**) et analyse de saillance pour interpréter les prédictions"
     activités parascolaires:
       - bullet: Pratique du **Zen Rinzai** plusieurs fois par semaine dans un centre à Montréal
       - bullet: J'aime la marche et la randonnée, et je pratique occasionnellement l'escalade
@@ -274,6 +264,6 @@ locale:
     - novembre
     - décembre
 rendercv_settings:
-  date: '2026-07-21'
+  date: '2026-11-25'
   render_command:
   bold_keywords: []

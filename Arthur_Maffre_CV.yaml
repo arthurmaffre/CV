@@ -41,25 +41,23 @@ cv:
           - Teaching assistant for * **Microeconomics I** (ECN-2040)*, a **core** 2nd-year under-graduate course'
           - '**GPA:** 3.825/4.3'
     research projects:
-      - name: '[Bilevel Pricing with GFlowNet](https://www.researchgate.net/publication/392064095_ECN_6338_Knapsack_GFlowNet)'
+      - name: '[Conditional GFlowNet for Bilevel Knapsack](https://www.researchgate.net/publication/392064095_ECN_6338_Knapsack_GFlowNet)'
         date:
         start_date: 2025-03
         end_date: 2025-09
         location:
         summary: Honours Thesis – Université de Montréal (2024–2025)
         highlights:
-          - Formulated a bilevel pricing model where consumers solve a knapsack problem to maximize utility
-          - Used GFlowNets with **Critic** to simulate consumer response and improve leader pricing strategy
-          - Integrated mixed-integer programming with generative flow dynamics
-      - name: '[Transformer-GFlowNet for Sequential Portfolio Optimization](https://github.com/arthurmaffre/RMBP_finance)'
-        date:
-        start_date: 2024-06
-        end_date: present
+          - '**Bilevel** knapsack pricing problem: the leader sets prices, the follower solves a knapsack problem to maximize utility'
+          - '**Conditional GFlowNet**, conditioned on the leader''s decision, that successively proposes cuts for the master problem in a **Benders**-type approach'
+          - Integrated mixed-integer programming with GFlowNet-based generation
+      - name: 'LIBS Spectral Classification with a 1D Vision Transformer'
+        date: Summer 2026
         location:
-        summary: Finalist – McGill-FIAM Hackathon 2024
+        summary: Research Internship – Institut Courtois, Université de Montréal (Prof. Mickaël Dollé)
         highlights:
-          - Developed a **Transformer-based** model to generate vectors of asset allocations
-          - Modeled transaction costs, turnover constraints, and **dynamic Sharpe** ratio optimization
+          - Encoder-based classifier (**1D Vision Transformer**) for **LIBS** (laser-induced breakdown spectroscopy) spectra in solid-state chemistry
+          - Saliency analysis to interpret predictions on samples
       - name: 'Corrections to *GFlowNet Foundations* (Bengio et al.)'
         date: '2026'
         location:
@@ -118,14 +116,6 @@ cv:
         highlights:
           - Designed an AI system to generate **financial reports** and commentary from raw data
           - 'Awarded a **$500** prize'
-    experience:
-      - company: Institut Courtois - Université de Montréal
-        position: Research Intern – Solid-State Chemistry (Prof. Mickaël Dollé)
-        date: Summer 2026
-        location: Montreal, QC
-        summary:
-        highlights:
-          - "**LIBS** spectral analysis: encoder-based classifier (**1D Vision Transformer**) with saliency analysis to interpret predictions"
     extracurricular_activities:
       - bullet: Practice **Rinzai Zen** meditation several times a week at a Montreal centre
       - bullet: Enjoy long walks and hiking, and occasional rock climbing

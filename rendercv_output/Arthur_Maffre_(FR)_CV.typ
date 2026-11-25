@@ -3,7 +3,7 @@
 
 #let name = "Arthur Maffre"
 #let locale-catalog-page-numbering-style = context { "Arthur Maffre - Page " + str(here().page()) + " sur " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Dernière mise à jour en juill. 2026"
+#let locale-catalog-last-updated-date-style = "Dernière mise à jour en nov. 2026"
 #let locale-catalog-language = "fr"
 #let design-page-size = "us-letter"
 #let design-section-titles-font-size = 1.4em
@@ -530,7 +530,7 @@ sept. 2022 – août 2025
 
 #two-col-entry(
   left-content: [
-    #link("https://www.researchgate.net/publication/392064095_ECN_6338_Knapsack_GFlowNet")[#strong[Tarification bilatérale avec GFlowNet]]
+    #link("https://www.researchgate.net/publication/392064095_ECN_6338_Knapsack_GFlowNet")[#strong[GFlowNet conditionnel pour le sac à dos bi-niveau]]
   ],
   right-content: [
     mars 2025 – sept. 2025
@@ -540,24 +540,24 @@ sept. 2022 – août 2025
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Mémoire Honours – Université de Montréal \(2024–2025\)])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Formulation d'un modèle de tarification bilatérale où les consommateurs résolvent un problème de sac à dos pour maximiser leur utilité],[Utilisation de GFlowNets avec #strong[Critic] pour simuler la réponse des consommateurs et améliorer la stratégie de tarification du meneur],[Intégration de la programmation en nombres entiers mixtes avec la dynamique des flux génératifs],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Problème de sac à dos #strong[bi-niveau] de tarification : le meneur fixe les prix, le suiveur résout un sac à dos pour maximiser son utilité],[#strong[GFlowNet conditionnel] sur la décision du meneur, qui propose successivement des coupes pour le problème maître dans une approche de type #strong[Benders]],[Intégration de la programmation en nombres entiers mixtes avec la génération par GFlowNet],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #link("https://github.com/arthurmaffre/RMBP_finance")[#strong[Transformer-GFlowNet pour l'optimisation séquentielle de portefeuille]]
+    #strong[Classification de spectres LIBS avec un Vision Transformer 1D]
   ],
   right-content: [
-    juin 2024 – présent
+    Été 2026
   ],
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Finaliste – Hackathon McGill-FIAM 2024])], column-gutter: 0cm)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Stage de recherche – Institut Courtois, Université de Montréal \(Prof. Mickaël Dollé\)])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Développement d'un modèle fondé sur les #strong[Transformers] pour générer des vecteurs d'allocation d'actifs],[Modélisation des coûts de transaction, des contraintes de rotation et de l'optimisation du #strong[ratio de Sharpe dynamique]],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Classifieur à encodeur \(#strong[Vision Transformer 1D]\) pour l'analyse de spectres #strong[LIBS] \(spectroscopie sur plasma induit par laser\) en chimie du solide],[Analyse de saillance pour interpréter les prédictions sur les échantillons],)
   ],
 )
 
@@ -668,25 +668,6 @@ nov. 2024
     Montréal
 
 déc. 2024
-  ],
-)
-
-
-
-== Experience
-
-
-#two-col-entry(
-  left-content: [
-    #strong[Institut Courtois - Université de Montréal], Stagiaire de recherche – Chimie du solide \(Prof. Mickaël Dollé\)
-    #v(-design-text-leading)
-
-    #v(design-highlights-top-margin);#highlights([Analyse de spectres #strong[LIBS] : classifieur à encodeur \(#strong[Vision Transformer 1D]\) et analyse de saillance pour interpréter les prédictions],)
-  ],
-  right-content: [
-    Montréal, QC
-
-Été 2026
   ],
 )
 
